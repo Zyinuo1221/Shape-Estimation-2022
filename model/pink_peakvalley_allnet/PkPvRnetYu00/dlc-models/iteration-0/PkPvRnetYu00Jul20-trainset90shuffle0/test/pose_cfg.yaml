@@ -1,0 +1,253 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+- - 12
+- - 13
+- - 14
+- - 15
+- - 16
+- - 17
+- - 18
+- - 19
+- - 20
+all_joints_names:
+- bodypart1
+- bodypart2
+- bodypart3
+- bodypart4
+- bodypart5
+- bodypart6
+- bodypart7
+- bodypart8
+- bodypart9
+- bodypart10
+- bodypart11
+- bodypart12
+- bodypart13
+- bodypart14
+- bodypart15
+- bodypart16
+- bodypart17
+- bodypart18
+- bodypart19
+- bodypart20
+- bodypart21
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle0.pickle
+dataset_type: multi-animal-imgaug
+global_scale: 0.8
+init_weights: /home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt
+location_refinement: true
+locref_smooth: false
+locref_stdev: 7.2801
+minconfidence: 0.01
+multi_stage: false
+net_type: resnet_50
+nmsradius: 5.0
+num_idchannel: 0
+num_joints: 21
+num_limbs: 63
+pairwise_predict: false
+partaffinityfield_graph:
+- - 6
+  - 17
+- - 6
+  - 15
+- - 6
+  - 11
+- - 6
+  - 13
+- - 2
+  - 6
+- - 6
+  - 9
+- - 16
+  - 17
+- - 17
+  - 20
+- - 11
+  - 17
+- - 14
+  - 17
+- - 4
+  - 17
+- - 4
+  - 10
+- - 0
+  - 4
+- - 3
+  - 4
+- - 4
+  - 5
+- - 4
+  - 14
+- - 10
+  - 14
+- - 7
+  - 10
+- - 10
+  - 18
+- - 14
+  - 16
+- - 2
+  - 14
+- - 14
+  - 18
+- - 14
+  - 19
+- - 11
+  - 14
+- - 12
+  - 14
+- - 5
+  - 12
+- - 5
+  - 20
+- - 5
+  - 19
+- - 5
+  - 8
+- - 12
+  - 20
+- - 12
+  - 13
+- - 0
+  - 12
+- - 7
+  - 12
+- - 9
+  - 15
+- - 0
+  - 13
+- - 0
+  - 1
+- - 0
+  - 9
+- - 0
+  - 3
+- - 0
+  - 2
+- - 0
+  - 7
+- - 0
+  - 16
+- - 0
+  - 20
+- - 9
+  - 13
+- - 11
+  - 13
+- - 1
+  - 9
+- - 1
+  - 19
+- - 1
+  - 11
+- - 1
+  - 20
+- - 9
+  - 16
+- - 7
+  - 9
+- - 9
+  - 19
+- - 19
+  - 20
+- - 16
+  - 19
+- - 11
+  - 19
+- - 2
+  - 20
+- - 8
+  - 20
+- - 11
+  - 18
+- - 11
+  - 16
+- - 3
+  - 16
+- - 8
+  - 16
+- - 3
+  - 8
+- - 2
+  - 3
+- - 8
+  - 18
+partaffinityfield_predict: true
+scoremap_dir: test
+sigma: 1
+paf_best:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 60
+- 61
+- 62

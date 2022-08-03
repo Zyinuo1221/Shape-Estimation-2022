@@ -1,0 +1,117 @@
+    # Project definitions (do not edit)
+Task: PkPvRnetYu00
+scorer: Yuna
+date: Jul20
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/yinuozhao/PkSsRnetYu00-Yuna-2022-07-19/PkPvRnetYu00-Yuna-2022-07-20/videos/pink02-train-2022-02-21-20.05.09.mp4:
+    crop: 0, 1080, 0, 1920
+individuals:
+- individual1
+uniquebodyparts: []
+multianimalbodyparts:
+- bodypart1
+- bodypart2
+- bodypart3
+- bodypart4
+- bodypart5
+- bodypart6
+- bodypart7
+- bodypart8
+- bodypart9
+- bodypart10
+- bodypart11
+- bodypart12
+- bodypart13
+- bodypart14
+- bodypart15
+- bodypart16
+- bodypart17
+- bodypart18
+- bodypart19
+- bodypart20
+- bodypart21
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - bodypart1
+  - bodypart2
+- - bodypart2
+  - bodypart3
+- - bodypart3
+  - bodypart4
+- - bodypart4
+  - bodypart5
+- - bodypart5
+  - bodypart6
+- - bodypart6
+  - bodypart7
+- - bodypart7
+  - bodypart8
+- - bodypart8
+  - bodypart9
+- - bodypart9
+  - bodypart10
+- - bodypart10
+  - bodypart11
+- - bodypart11
+  - bodypart12
+- - bodypart12
+  - bodypart13
+- - bodypart13
+  - bodypart14
+- - bodypart14
+  - bodypart15
+- - bodypart15
+  - bodypart16
+- - bodypart16
+  - bodypart17
+- - bodypart17
+  - bodypart18
+- - bodypart18
+  - bodypart19
+- - bodypart19
+  - bodypart20
+- - bodypart20
+  - bodypart21
+skeleton_color: black
+pcutoff: 0.8
+dotsize: 8
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.90
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

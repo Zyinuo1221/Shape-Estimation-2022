@@ -1,0 +1,1139 @@
+/home/xp2027/.local/lib/python3.9/site-packages/statsmodels/compat/pandas.py:65: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index as NumericIndex
+Loading DLC 2.2.1.1...
+DLC loaded in light mode; you cannot use any GUI (labeling, relabeling and standalone GUI)
+Utilizing the following graph: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [3, 10], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 9], [6, 10], [7, 8], [7, 9], [7, 10], [8, 9], [8, 10], [9, 10]]
+Creating training data for: Shuffle: 0 TrainFraction:  0.85
+  0%|          | 0/43 [00:00<?, ?it/s]  2%|▏         | 1/43 [00:00<00:04,  8.87it/s] 12%|█▏        | 5/43 [00:00<00:01, 23.36it/s] 21%|██        | 9/43 [00:00<00:01, 27.80it/s] 30%|███       | 13/43 [00:00<00:01, 28.73it/s] 40%|███▉      | 17/43 [00:00<00:00, 31.72it/s] 49%|████▉     | 21/43 [00:00<00:00, 30.77it/s] 58%|█████▊    | 25/43 [00:00<00:00, 33.25it/s] 67%|██████▋   | 29/43 [00:00<00:00, 32.18it/s] 77%|███████▋  | 33/43 [00:01<00:00, 31.78it/s] 86%|████████▌ | 37/43 [00:01<00:00, 31.94it/s] 95%|█████████▌| 41/43 [00:01<00:00, 31.39it/s]100%|██████████| 43/43 [00:01<00:00, 30.63it/s]
+The training dataset is successfully created. Use the function 'train_network' to start training. Happy training!
+Utilizing the following graph: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [3, 10], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 9], [6, 10], [7, 8], [7, 9], [7, 10], [8, 9], [8, 10], [9, 10]]
+Downloading a ImageNet-pretrained model from https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_1.0_224.tgz....
+Creating training data for: Shuffle: 1 TrainFraction:  0.85
+  0%|          | 0/43 [00:00<?, ?it/s] 37%|███▋      | 16/43 [00:00<00:00, 136.36it/s]100%|██████████| 43/43 [00:00<00:00, 241.35it/s]
+The training dataset is successfully created. Use the function 'train_network' to start training. Happy training!
+Utilizing the following graph: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [3, 10], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 9], [6, 10], [7, 8], [7, 9], [7, 10], [8, 9], [8, 10], [9, 10]]
+Downloading a ImageNet-pretrained model from https://storage.googleapis.com/mobilenet_v2/checkpoints/mobilenet_v2_0.75_224.tgz....
+Creating training data for: Shuffle: 2 TrainFraction:  0.85
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 771.70it/s]
+The training dataset is successfully created. Use the function 'train_network' to start training. Happy training!
+Utilizing the following graph: [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [3, 10], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 9], [6, 10], [7, 8], [7, 9], [7, 10], [8, 9], [8, 10], [9, 10]]
+Downloading a ImageNet-pretrained model from https://storage.googleapis.com/cloud-tpu-checkpoints/efficientnet/ckptsaug/efficientnet-b6.tar.gz....
+Creating training data for: Shuffle: 3 TrainFraction:  0.85
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 43095.60it/s]
+Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/PkPpEnetCh02_Chen85shuffle0.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/Documentation_data-PkPpEnetCh02_85shuffle0.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'resnet_50',
+ 'num_idchannel': 0,
+ 'num_joints': 11,
+ 'num_limbs': 55,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [8, 9],
+                             [8, 10],
+                             [9, 10]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+/home/xp2027/.local/lib/python3.9/site-packages/tf_slim/layers/layers.py:684: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  outputs = layer.apply(inputs, training=is_training)
+2022-07-13 16:57:56.481247: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-13 16:57:57.145924: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78953 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2022-07-13 16:57:57.719355: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78953 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+2022-07-13 16:58:24.080497: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8101
+iteration: 100 loss: 0.0597 scmap loss: 0.0442 locref loss: 0.0026 limb loss: 0.0129 lr: 0.0001
+iteration: 200 loss: 0.0042 scmap loss: 0.0036 locref loss: 0.0001 limb loss: 0.0004 lr: 0.0001
+iteration: 300 loss: 0.0034 scmap loss: 0.0030 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+iteration: 400 loss: 0.0031 scmap loss: 0.0028 locref loss: 0.0001 limb loss: 0.0003 lr: 0.0001
+iteration: 500 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0001
+iteration: 600 loss: 0.0026 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0002 lr: 0.0001
+iteration: 700 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 800 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 900 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1000 loss: 0.0026 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1100 loss: 0.0026 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1200 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1300 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1400 loss: 0.0024 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1500 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1600 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1700 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1800 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 1900 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2000 loss: 0.0023 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2100 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2200 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2300 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2400 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2500 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2600 loss: 0.0020 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2700 loss: 0.0018 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2800 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 2900 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3000 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3100 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3200 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3300 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3400 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3500 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3600 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3700 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3800 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 3900 loss: 0.0015 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4000 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4100 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4200 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4300 loss: 0.0012 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4400 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4500 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4600 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4700 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4800 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 4900 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5000 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5100 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5200 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5300 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5400 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5500 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5600 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5700 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5800 loss: 0.0012 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 5900 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 6000 loss: 0.0011 scmap loss: 0.0011 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 6100 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 6200 loss: 0.0009 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6300 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0001
+iteration: 6400 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6500 loss: 0.0009 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6600 loss: 0.0010 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6700 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6800 loss: 0.0009 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 6900 loss: 0.0009 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7000 loss: 0.0009 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7100 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7200 loss: 0.0009 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7300 loss: 0.0009 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7400 loss: 0.0008 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7500 loss: 0.0009 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001
+iteration: 7600 loss: 0.0008 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 7700 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 7800 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 7900 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8000 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8100 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8200 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8300 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8400 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8500 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8600 loss: 0.0008 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8700 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8800 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 8900 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9000 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9100 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9200 loss: 0.0008 scmap loss: 0.0008 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9300 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9400 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9500 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9600 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9700 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9800 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 9900 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10000 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10100 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10200 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10300 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10400 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10500 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10600 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10700 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10800 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 10900 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11000 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11100 loss: 0.0007 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11200 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11300 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11400 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11500 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11600 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11700 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11800 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 11900 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 12000 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 5e-05
+iteration: 12100 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12200 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12300 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12500 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12600 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12700 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12800 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 12900 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13000 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13100 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13200 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13300 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13500 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13600 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13700 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13800 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 13900 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14000 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14100 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14300 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14500 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14600 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14700 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14800 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 14900 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15000 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15100 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15300 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15600 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15700 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15800 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 15900 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16000 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16100 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16500 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16600 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16800 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 16900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17100 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17400 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17500 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17700 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17800 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 17900 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18000 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 18900 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19500 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 19900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 20900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 21900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 22900 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 23900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24300 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 24900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 25900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 26900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 27900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 28900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 29900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30000 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 30900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 31900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 32900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33300 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 33900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 34900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35100 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 35900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36100 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 36900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37400 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 37900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 38900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39300 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39400 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 39900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+iteration: 40000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 1e-05
+Exception in thread Thread-2:
+Traceback (most recent call last):
+  File "/ext3/miniconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/ext3/miniconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/PkPpEnetCh02_Chen85shuffle0.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 11,
+ 'num_limbs': 55,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [8, 9],
+                             [8, 10],
+                             [9, 10]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+/home/xp2027/.local/lib/python3.9/site-packages/tf_slim/layers/layers.py:684: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  outputs = layer.apply(inputs, training=is_training)
+2022-07-13 21:18:07.929410: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78953 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+The training dataset is successfully created. Use the function 'train_network' to start training. Happy training!
+Selecting multi-animal trainer
+Activating limb prediction...
+Batch Size is 8
+Getting specs multi-animal-imgaug 55 11
+Loading ImageNet-pretrained resnet_50
+Max_iters overwritten as 40000
+Display_iters overwritten as 100
+Save_iters overwritten as 2000
+Training parameters:
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'adam', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 8, 'dataset_type': 'multi-animal-imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': True, 'pairwise_predict': True, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]], 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'bodypart4', 'bodypart5', 'bodypart6', 'bodypart7', 'bodypart8', 'bodypart9', 'bodypart10', 'bodypart11'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'clahe': True, 'claheratio': 0.1, 'crop_sampling': 'hybrid', 'crop_size': [400, 400], 'cropratio': 0.4, 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/PkPpEnetCh02_Chen85shuffle0.pickle', 'decay_steps': 30000, 'display_iters': 500, 'edge': False, 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]}, 'histeq': True, 'histeqratio': 0.1, 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'max_shift': 0.4, 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/Documentation_data-PkPpEnetCh02_85shuffle0.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]], 'net_type': 'resnet_50', 'num_idchannel': 0, 'num_joints': 11, 'num_limbs': 55, 'pafwidth': 20, 'pairwise_loss_weight': 0.1, 'partaffinityfield_graph': [[0, 1], [0, 2], [0, 3], [0, 4], [0, 5], [0, 6], [0, 7], [0, 8], [0, 9], [0, 10], [1, 2], [1, 3], [1, 4], [1, 5], [1, 6], [1, 7], [1, 8], [1, 9], [1, 10], [2, 3], [2, 4], [2, 5], [2, 6], [2, 7], [2, 8], [2, 9], [2, 10], [3, 4], [3, 5], [3, 6], [3, 7], [3, 8], [3, 9], [3, 10], [4, 5], [4, 6], [4, 7], [4, 8], [4, 9], [4, 10], [5, 6], [5, 7], [5, 8], [5, 9], [5, 10], [6, 7], [6, 8], [6, 9], [6, 10], [7, 8], [7, 9], [7, 10], [8, 9], [8, 10], [9, 10]], 'pos_dist_thresh': 17, 'pre_resize': [], 'project_path': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 10000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'sharpen': False, 'sharpenratio': 0.3}
+Starting multi-animal training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Running  DLC_resnet50_PkPpEnetCh02Jun24shuffle0_40000  with # of trainingiterations: 40000
+Activating extracting of PAFs
+Network Evaluation underway...
+0it [00:00, ?it/s]1it [00:25, 25.72s/it]2it [00:54, 27.27s/it]3it [01:21, 27.18s/it]4it [01:35, 22.00s/it]5it [02:01, 23.58s/it]6it [02:25, 23.60s/it]7it [02:51, 24.63s/it]8it [03:16, 24.65s/it]9it [03:38, 23.68s/it]10it [03:56, 22.08s/it]11it [04:13, 20.50s/it]12it [04:14, 14.51s/it]13it [04:15, 10.34s/it]14it [04:15,  7.42s/it]15it [04:16,  5.39s/it]16it [04:17,  3.99s/it]17it [04:17,  3.00s/it]18it [04:18,  2.33s/it]19it [04:19,  1.85s/it]20it [04:20,  1.52s/it]21it [04:20,  1.29s/it]22it [04:21,  1.12s/it]23it [04:22,  1.01it/s]24it [04:23,  1.11it/s]25it [04:23,  1.19it/s]26it [04:24,  1.25it/s]27it [04:25,  1.28it/s]28it [04:25,  1.31it/s]29it [04:26,  1.32it/s]30it [04:27,  1.33it/s]31it [04:28,  1.33it/s]32it [04:28,  1.33it/s]33it [04:29,  1.32it/s]34it [04:30,  1.31it/s]35it [04:31,  1.29it/s]36it [04:32,  1.29it/s]37it [04:48,  5.44s/it]38it [05:04,  8.68s/it]39it [05:21, 11.07s/it]40it [05:36, 12.23s/it]41it [05:50, 12.98s/it]42it [06:07, 14.17s/it]43it [06:27, 15.66s/it]44it [06:42, 15.58s/it]45it [06:55, 14.87s/it]46it [07:07, 13.96s/it]47it [07:14, 11.88s/it]48it [07:20, 10.03s/it]49it [07:32, 10.67s/it]50it [07:44, 11.00s/it]51it [07:55, 10.98s/it]51it [07:55,  9.32s/it]
+/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/lib/crossvalutils.py:83: RuntimeWarning: invalid value encountered in true_divide
+  hist_left = hist_left / hist_left.sum()
+Results for 40000 training iterations, training fraction of 85, and shuffle 0:
+Train error: 2.84 pixels. Test error: 7.72 pixels.
+With pcutoff of 0.8:
+Train error: 2.84 pixels. Test error: 7.73 pixels.
+##########################################
+Average Euclidean distance to GT per individual (in pixels; test-only)
+individuals
+individual1    7.726611
+Average Euclidean distance to GT per bodypart (in pixels; test-only)
+bodyparts
+bodypart1      5.370224
+bodypart10     5.538162
+bodypart11     5.173939
+bodypart2      6.919908
+bodypart3      9.355457
+bodypart4     11.270478
+bodypart5     10.756538
+bodypart6     10.017578
+bodypart7      7.946854
+bodypart8      6.101766
+bodypart9      6.828498
+Done and results stored for snapshot:  snapshot-40000
+Selecting best skeleton...
+Graph 1|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 574.97it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9744.71it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9617.21it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 70550.63it/s]
+Graph 2|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 621.17it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9767.93it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9706.23it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 69882.23it/s]
+Graph 3|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1143.05it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9734.72it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9748.53it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 70295.60it/s]
+Graph 4|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 545.00it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9778.52it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9425.40it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 70480.89it/s]
+Graph 5|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 520.46it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9868.95it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9570.57it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 71709.52it/s]
+Graph 6|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1043.03it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9692.34it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9799.78it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 70527.37it/s]
+Graph 7|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1335.37it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9880.85it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9692.21it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 71160.85it/s]
+Graph 8|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1042.93it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9836.12it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9655.95it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 70341.83it/s]
+Graph 9|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 1333.79it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9860.32it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9633.77it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 71661.48it/s]
+Graph 10|10
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 757.20it/s]
+  0%|          | 0/43 [00:00<?, ?it/s]100%|██████████| 43/43 [00:00<00:00, 9861.40it/s]
+  0%|          | 0/8 [00:00<?, ?it/s]100%|██████████| 8/8 [00:00<00:00, 9765.55it/s]
+  0%|          | 0/51 [00:00<?, ?it/s]100%|██████████| 51/51 [00:00<00:00, 71565.58it/s]
+Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/PkPpEnetCh02_Chen85shuffle0.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 11,
+ 'num_limbs': 55,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              45,
+              10,
+              19,
+              18,
+              52,
+              46,
+              21,
+              53,
+              35,
+              54,
+              26,
+              23,
+              51,
+              50,
+              25,
+              40,
+              2,
+              11,
+              1,
+              17,
+              47,
+              14,
+              4,
+              28,
+              32,
+              48,
+              24,
+              22,
+              37,
+              27,
+              34,
+              13,
+              7,
+              42,
+              3,
+              12,
+              30,
+              15,
+              8,
+              16,
+              29,
+              20,
+              49,
+              6,
+              5,
+              44,
+              36,
+              31,
+              43,
+              38,
+              41,
+              9,
+              33,
+              39],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [8, 9],
+                             [8, 10],
+                             [9, 10]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+/home/xp2027/.local/lib/python3.9/site-packages/tf_slim/layers/layers.py:684: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  outputs = layer.apply(inputs, training=is_training)
+2022-07-13 21:27:27.596503: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 78953 MB memory:  -> device: 0, name: NVIDIA A100-SXM4-80GB, pci bus id: 0000:ca:00.0, compute capability: 8.0
+Using snapshot-40000 for model /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0
+Activating extracting of PAFs
+Starting to analyze %  /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4
+Loading  /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4
+Duration of video [s]:  23.27 , recorded with  30.0 fps!
+Overall # of frames:  698  found with (before cropping) frame dimensions:  1080 1920
+Starting to extract posture from the video(s) with batchsize: 8
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<04:17,  2.70it/s]  1%|          | 8/698 [00:02<04:00,  2.86it/s]  2%|▏         | 16/698 [00:03<01:56,  5.87it/s]  3%|▎         | 24/698 [00:03<01:17,  8.71it/s]  5%|▍         | 32/698 [00:04<00:59, 11.20it/s]  6%|▌         | 40/698 [00:04<00:49, 13.32it/s]  7%|▋         | 48/698 [00:04<00:43, 15.01it/s]  8%|▊         | 56/698 [00:05<00:39, 16.28it/s]  9%|▉         | 63/698 [00:05<00:30, 20.78it/s] 10%|▉         | 67/698 [00:05<00:35, 17.99it/s] 10%|█         | 72/698 [00:06<00:37, 16.70it/s] 11%|█▏        | 79/698 [00:06<00:27, 22.43it/s] 12%|█▏        | 83/698 [00:06<00:33, 18.59it/s] 13%|█▎        | 88/698 [00:06<00:36, 16.94it/s] 14%|█▎        | 95/698 [00:06<00:26, 23.18it/s] 14%|█▍        | 99/698 [00:07<00:31, 18.74it/s] 15%|█▍        | 104/698 [00:07<00:35, 16.94it/s] 16%|█▌        | 111/698 [00:07<00:25, 23.36it/s] 16%|█▋        | 115/698 [00:08<00:31, 18.77it/s] 17%|█▋        | 120/698 [00:08<00:34, 16.98it/s] 18%|█▊        | 127/698 [00:08<00:24, 23.42it/s] 19%|█▉        | 131/698 [00:08<00:30, 18.86it/s] 19%|█▉        | 136/698 [00:09<00:32, 17.05it/s] 20%|██        | 143/698 [00:09<00:23, 23.42it/s] 21%|██        | 147/698 [00:09<00:29, 18.87it/s] 22%|██▏       | 152/698 [00:10<00:31, 17.09it/s] 23%|██▎       | 159/698 [00:10<00:22, 23.56it/s] 23%|██▎       | 163/698 [00:10<00:28, 18.95it/s] 24%|██▍       | 168/698 [00:10<00:31, 17.06it/s] 25%|██▌       | 175/698 [00:11<00:22, 23.62it/s] 26%|██▌       | 179/698 [00:11<00:27, 18.91it/s] 26%|██▋       | 184/698 [00:11<00:30, 17.11it/s] 27%|██▋       | 191/698 [00:11<00:21, 23.50it/s] 28%|██▊       | 195/698 [00:12<00:26, 19.00it/s] 29%|██▊       | 200/698 [00:12<00:28, 17.19it/s] 30%|██▉       | 207/698 [00:12<00:20, 23.77it/s] 30%|███       | 211/698 [00:13<00:25, 18.95it/s] 31%|███       | 216/698 [00:13<00:28, 16.97it/s] 32%|███▏      | 223/698 [00:13<00:20, 23.46it/s] 33%|███▎      | 227/698 [00:13<00:25, 18.81it/s] 33%|███▎      | 232/698 [00:14<00:27, 16.98it/s] 34%|███▍      | 240/698 [00:14<00:25, 17.99it/s] 36%|███▌      | 248/698 [00:15<00:24, 18.60it/s] 37%|███▋      | 255/698 [00:15<00:18, 24.06it/s] 37%|███▋      | 259/698 [00:15<00:22, 19.73it/s] 38%|███▊      | 264/698 [00:15<00:24, 17.83it/s] 39%|███▉      | 272/698 [00:16<00:22, 18.62it/s] 40%|████      | 280/698 [00:16<00:21, 19.14it/s] 41%|████      | 287/698 [00:16<00:16, 24.58it/s] 42%|████▏     | 291/698 [00:17<00:20, 20.15it/s] 42%|████▏     | 296/698 [00:17<00:22, 18.13it/s] 44%|████▎     | 304/698 [00:17<00:20, 18.80it/s] 45%|████▍     | 312/698 [00:18<00:20, 19.14it/s] 46%|████▌     | 319/698 [00:18<00:15, 24.39it/s] 46%|████▋     | 323/698 [00:18<00:18, 19.90it/s] 47%|████▋     | 328/698 [00:19<00:20, 17.83it/s] 48%|████▊     | 336/698 [00:19<00:19, 18.54it/s] 49%|████▉     | 344/698 [00:19<00:18, 18.95it/s] 50%|█████     | 352/698 [00:20<00:17, 19.27it/s] 52%|█████▏    | 360/698 [00:20<00:17, 19.43it/s] 53%|█████▎    | 368/698 [00:21<00:16, 19.55it/s] 54%|█████▍    | 376/698 [00:21<00:16, 19.59it/s] 55%|█████▌    | 384/698 [00:21<00:16, 19.27it/s] 56%|█████▌    | 392/698 [00:22<00:15, 19.49it/s] 57%|█████▋    | 399/698 [00:22<00:12, 24.25it/s] 58%|█████▊    | 403/698 [00:22<00:14, 20.16it/s] 58%|█████▊    | 408/698 [00:23<00:16, 18.12it/s] 59%|█████▉    | 415/698 [00:23<00:11, 23.89it/s] 60%|██████    | 419/698 [00:23<00:14, 19.50it/s] 61%|██████    | 424/698 [00:23<00:15, 17.53it/s] 62%|██████▏   | 431/698 [00:23<00:11, 23.87it/s] 62%|██████▏   | 435/698 [00:24<00:13, 19.25it/s] 63%|██████▎   | 440/698 [00:24<00:14, 17.21it/s] 64%|██████▍   | 447/698 [00:24<00:10, 23.52it/s] 65%|██████▍   | 451/698 [00:25<00:13, 18.92it/s] 65%|██████▌   | 456/698 [00:25<00:14, 17.05it/s] 66%|██████▋   | 463/698 [00:25<00:10, 23.43it/s] 67%|██████▋   | 467/698 [00:25<00:12, 18.89it/s] 68%|██████▊   | 472/698 [00:26<00:13, 17.04it/s] 69%|██████▊   | 479/698 [00:26<00:09, 23.43it/s] 69%|██████▉   | 483/698 [00:26<00:11, 18.90it/s] 70%|██████▉   | 488/698 [00:27<00:12, 17.13it/s] 71%|███████   | 495/698 [00:27<00:08, 23.69it/s] 71%|███████▏  | 499/698 [00:27<00:10, 19.17it/s] 72%|███████▏  | 504/698 [00:27<00:11, 17.20it/s] 73%|███████▎  | 511/698 [00:28<00:07, 23.81it/s] 74%|███████▍  | 515/698 [00:28<00:09, 18.99it/s] 74%|███████▍  | 520/698 [00:28<00:10, 17.15it/s] 76%|███████▌  | 527/698 [00:28<00:07, 23.73it/s] 76%|███████▌  | 531/698 [00:29<00:08, 19.14it/s] 77%|███████▋  | 536/698 [00:29<00:09, 17.17it/s] 78%|███████▊  | 543/698 [00:29<00:06, 23.65it/s] 78%|███████▊  | 547/698 [00:30<00:07, 19.03it/s] 79%|███████▉  | 552/698 [00:30<00:08, 17.20it/s] 80%|████████  | 559/698 [00:30<00:05, 23.83it/s] 81%|████████  | 563/698 [00:30<00:07, 19.17it/s] 81%|████████▏ | 568/698 [00:31<00:07, 17.31it/s] 83%|████████▎ | 576/698 [00:31<00:06, 18.23it/s] 84%|████████▎ | 583/698 [00:31<00:04, 24.18it/s] 84%|████████▍ | 587/698 [00:32<00:05, 19.67it/s] 85%|████████▍ | 592/698 [00:32<00:05, 17.73it/s] 86%|████████▌ | 600/698 [00:32<00:05, 18.62it/s] 87%|████████▋ | 608/698 [00:33<00:04, 19.15it/s] 88%|████████▊ | 616/698 [00:33<00:04, 19.51it/s] 89%|████████▉ | 624/698 [00:33<00:03, 19.76it/s] 91%|█████████ | 632/698 [00:34<00:03, 19.95it/s] 92%|█████████▏| 640/698 [00:34<00:02, 20.35it/s] 93%|█████████▎| 648/698 [00:35<00:02, 20.67it/s] 94%|█████████▍| 656/698 [00:35<00:02, 20.88it/s] 95%|█████████▌| 664/698 [00:35<00:01, 21.05it/s] 96%|█████████▋| 672/698 [00:36<00:01, 21.16it/s] 97%|█████████▋| 680/698 [00:36<00:00, 21.21it/s] 99%|█████████▊| 688/698 [00:36<00:00, 21.26it/s]100%|█████████▉| 696/698 [00:37<00:00, 21.29it/s]100%|██████████| 698/698 [00:37<00:00, 18.51it/s]
+Config:
+{'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPpEnetCh02Jun24/PkPpEnetCh02_Chen85shuffle0.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/resnet_v1_50.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'resnet_50',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 11,
+ 'num_limbs': 55,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              45,
+              10,
+              19,
+              18,
+              52,
+              46,
+              21,
+              53,
+              35,
+              54,
+              26,
+              23,
+              51,
+              50,
+              25,
+              40,
+              2,
+              11,
+              1,
+              17,
+              47,
+              14,
+              4,
+              28,
+              32,
+              48,
+              24,
+              22,
+              37,
+              27,
+              34,
+              13,
+              7,
+              42,
+              3,
+              12,
+              30,
+              15,
+              8,
+              16,
+              29,
+              20,
+              49,
+              6,
+              5,
+              44,
+              36,
+              31,
+              43,
+              38,
+              41,
+              9,
+              33,
+              39],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 1],
+                             [0, 2],
+                             [0, 3],
+                             [0, 4],
+                             [0, 5],
+                             [0, 6],
+                             [0, 7],
+                             [0, 8],
+                             [0, 9],
+                             [0, 10],
+                             [1, 2],
+                             [1, 3],
+                             [1, 4],
+                             [1, 5],
+                             [1, 6],
+                             [1, 7],
+                             [1, 8],
+                             [1, 9],
+                             [1, 10],
+                             [2, 3],
+                             [2, 4],
+                             [2, 5],
+                             [2, 6],
+                             [2, 7],
+                             [2, 8],
+                             [2, 9],
+                             [2, 10],
+                             [3, 4],
+                             [3, 5],
+                             [3, 6],
+                             [3, 7],
+                             [3, 8],
+                             [3, 9],
+                             [3, 10],
+                             [4, 5],
+                             [4, 6],
+                             [4, 7],
+                             [4, 8],
+                             [4, 9],
+                             [4, 10],
+                             [5, 6],
+                             [5, 7],
+                             [5, 8],
+                             [5, 9],
+                             [5, 10],
+                             [6, 7],
+                             [6, 8],
+                             [6, 9],
+                             [6, 10],
+                             [7, 8],
+                             [7, 9],
+                             [7, 10],
+                             [8, 9],
+                             [8, 10],
+                             [9, 10]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+Video Analyzed. Saving results in /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/iteration-0/shuffle-0...
+Using snapshot-40000 for model /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/dlc-models/iteration-0/PkPpEnetCh02Jun24-trainset85shuffle0
+Processing...  /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4
+Analyzing /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/iteration-0/shuffle-0/pink02-train-2022-02-21-20.05.09DLC_resnet50_PkPpEnetCh02Jun24shuffle0_40000.h5
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<01:31,  7.59it/s] 57%|█████▋    | 401/698 [00:00<00:00, 1898.66it/s]100%|██████████| 698/698 [00:00<00:00, 2380.89it/s]
+0it [00:00, ?it/s]698it [00:00, 635335.11it/s]
+The tracklets were created (i.e., under the hood deeplabcut.convert_detections2tracklets was run). Now you can 'refine_tracklets' in the GUI, or run 'deeplabcut.stitch_tracklets'.
+Processing...  /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 37449.14it/s]
+The videos are analyzed. Time to assemble animals and track 'em... 
+ Call 'create_video_with_all_detections' to check multi-animal detection quality before tracking.
+If the tracking is not satisfactory for some videos, consider expanding the training set. You can use the function 'extract_outlier_frames' to extract a few representative outlier frames.
+Loading  /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4 and data.
+Plots created! Please check the directory "plot-poses" within the video directory
+Starting to process video: /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4
+Loading /scratch/xp2027/lab_29_PkPpAllCh/PkPpEnetCh01/videos/pink02-train-2022-02-21-20.05.09.mp4 and data.
+Duration of video [s]: 23.27, recorded with 30.0 fps!
+Overall # of frames: 698 with cropped frame dimensions: 1080 1920
+Generating frames and creating video.
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<05:36,  2.07it/s]  1%|          | 6/698 [00:00<00:53, 12.83it/s]  2%|▏         | 12/698 [00:00<00:28, 23.93it/s]  3%|▎         | 18/698 [00:00<00:20, 32.67it/s]  3%|▎         | 24/698 [00:00<00:17, 39.32it/s]  4%|▍         | 30/698 [00:01<00:15, 43.38it/s]  5%|▌         | 36/698 [00:01<00:14, 46.79it/s]  6%|▌         | 42/698 [00:01<00:13, 48.51it/s]  7%|▋         | 48/698 [00:01<00:12, 50.35it/s]  8%|▊         | 54/698 [00:01<00:12, 51.43it/s]  9%|▊         | 60/698 [00:01<00:12, 51.14it/s]  9%|▉         | 66/698 [00:01<00:12, 51.19it/s] 10%|█         | 72/698 [00:01<00:12, 51.96it/s] 11%|█         | 78/698 [00:01<00:12, 51.44it/s] 12%|█▏        | 84/698 [00:02<00:11, 51.61it/s] 13%|█▎        | 90/698 [00:02<00:11, 51.91it/s] 14%|█▍        | 96/698 [00:02<00:11, 50.65it/s] 15%|█▍        | 102/698 [00:02<00:11, 50.28it/s] 15%|█▌        | 108/698 [00:02<00:11, 50.13it/s] 16%|█▋        | 114/698 [00:02<00:11, 49.53it/s] 17%|█▋        | 119/698 [00:02<00:11, 49.63it/s] 18%|█▊        | 124/698 [00:02<00:11, 48.94it/s] 18%|█▊        | 129/698 [00:02<00:11, 48.02it/s] 19%|█▉        | 134/698 [00:03<00:11, 47.63it/s] 20%|██        | 140/698 [00:03<00:11, 48.75it/s] 21%|██        | 145/698 [00:03<00:11, 48.46it/s] 21%|██▏       | 150/698 [00:03<00:11, 48.56it/s] 22%|██▏       | 155/698 [00:03<00:11, 48.33it/s] 23%|██▎       | 160/698 [00:03<00:11, 48.10it/s] 24%|██▎       | 165/698 [00:03<00:11, 47.26it/s] 24%|██▍       | 170/698 [00:03<00:11, 47.49it/s] 25%|██▌       | 175/698 [00:03<00:10, 47.82it/s] 26%|██▌       | 180/698 [00:04<00:10, 47.90it/s] 27%|██▋       | 186/698 [00:04<00:10, 48.02it/s] 28%|██▊       | 192/698 [00:04<00:10, 49.05it/s] 28%|██▊       | 197/698 [00:04<00:10, 49.22it/s] 29%|██▉       | 203/698 [00:04<00:09, 49.82it/s] 30%|██▉       | 208/698 [00:04<00:09, 49.85it/s] 31%|███       | 213/698 [00:04<00:09, 49.28it/s] 31%|███       | 218/698 [00:04<00:09, 49.21it/s] 32%|███▏      | 223/698 [00:04<00:09, 49.33it/s] 33%|███▎      | 229/698 [00:05<00:09, 49.50it/s] 34%|███▎      | 234/698 [00:05<00:09, 49.50it/s] 34%|███▍      | 240/698 [00:05<00:09, 50.81it/s] 35%|███▌      | 246/698 [00:05<00:08, 50.91it/s] 36%|███▌      | 252/698 [00:05<00:08, 51.94it/s] 37%|███▋      | 258/698 [00:05<00:08, 51.36it/s] 38%|███▊      | 264/698 [00:05<00:08, 52.37it/s] 39%|███▊      | 270/698 [00:05<00:08, 52.01it/s] 40%|███▉      | 276/698 [00:05<00:08, 52.06it/s] 40%|████      | 282/698 [00:06<00:08, 50.79it/s] 41%|████▏     | 288/698 [00:06<00:08, 50.59it/s] 42%|████▏     | 294/698 [00:06<00:07, 50.63it/s] 43%|████▎     | 300/698 [00:06<00:07, 51.60it/s] 44%|████▍     | 306/698 [00:06<00:07, 51.74it/s] 45%|████▍     | 312/698 [00:06<00:07, 52.04it/s] 46%|████▌     | 318/698 [00:06<00:07, 51.04it/s] 46%|████▋     | 324/698 [00:06<00:07, 50.88it/s] 47%|████▋     | 330/698 [00:06<00:07, 51.36it/s] 48%|████▊     | 336/698 [00:07<00:06, 52.62it/s] 49%|████▉     | 342/698 [00:07<00:06, 52.17it/s] 50%|████▉     | 348/698 [00:07<00:06, 53.19it/s] 51%|█████     | 354/698 [00:07<00:06, 52.93it/s] 52%|█████▏    | 360/698 [00:07<00:06, 53.50it/s] 52%|█████▏    | 366/698 [00:07<00:06, 53.25it/s] 53%|█████▎    | 372/698 [00:07<00:06, 53.99it/s] 54%|█████▍    | 378/698 [00:07<00:06, 53.07it/s] 55%|█████▌    | 384/698 [00:07<00:06, 52.00it/s] 56%|█████▌    | 390/698 [00:08<00:05, 52.27it/s] 57%|█████▋    | 396/698 [00:08<00:05, 52.13it/s] 58%|█████▊    | 402/698 [00:08<00:08, 36.94it/s] 58%|█████▊    | 408/698 [00:08<00:07, 40.30it/s] 59%|█████▉    | 414/698 [00:08<00:06, 42.84it/s] 60%|██████    | 420/698 [00:08<00:06, 45.71it/s] 61%|██████    | 425/698 [00:08<00:05, 46.66it/s] 62%|██████▏   | 431/698 [00:09<00:05, 48.42it/s] 63%|██████▎   | 437/698 [00:09<00:05, 48.28it/s] 63%|██████▎   | 442/698 [00:09<00:05, 48.45it/s] 64%|██████▍   | 447/698 [00:09<00:05, 48.03it/s] 65%|██████▍   | 453/698 [00:09<00:05, 48.85it/s] 66%|██████▌   | 459/698 [00:09<00:04, 49.02it/s] 66%|██████▋   | 464/698 [00:09<00:04, 49.19it/s] 67%|██████▋   | 470/698 [00:09<00:04, 49.45it/s] 68%|██████▊   | 475/698 [00:09<00:04, 48.32it/s] 69%|██████▉   | 481/698 [00:10<00:04, 49.34it/s] 70%|██████▉   | 487/698 [00:10<00:04, 49.45it/s] 70%|███████   | 492/698 [00:10<00:04, 49.34it/s] 71%|███████▏  | 498/698 [00:10<00:04, 49.58it/s] 72%|███████▏  | 503/698 [00:10<00:04, 48.68it/s] 73%|███████▎  | 508/698 [00:10<00:03, 49.03it/s] 73%|███████▎  | 513/698 [00:10<00:03, 48.28it/s] 74%|███████▍  | 518/698 [00:10<00:03, 48.61it/s] 75%|███████▌  | 524/698 [00:10<00:03, 48.97it/s] 76%|███████▌  | 530/698 [00:11<00:03, 49.48it/s] 77%|███████▋  | 536/698 [00:11<00:03, 49.67it/s] 78%|███████▊  | 541/698 [00:11<00:03, 49.63it/s] 78%|███████▊  | 547/698 [00:11<00:02, 50.49it/s] 79%|███████▉  | 553/698 [00:11<00:02, 50.96it/s] 80%|████████  | 559/698 [00:11<00:02, 52.12it/s] 81%|████████  | 565/698 [00:11<00:02, 51.95it/s] 82%|████████▏ | 571/698 [00:11<00:02, 52.53it/s] 83%|████████▎ | 577/698 [00:11<00:02, 52.00it/s] 84%|████████▎ | 583/698 [00:12<00:02, 52.17it/s] 84%|████████▍ | 589/698 [00:12<00:02, 52.58it/s] 85%|████████▌ | 595/698 [00:12<00:01, 53.74it/s] 86%|████████▌ | 601/698 [00:12<00:01, 54.25it/s] 87%|████████▋ | 607/698 [00:12<00:01, 54.81it/s] 88%|████████▊ | 613/698 [00:12<00:01, 54.38it/s] 89%|████████▊ | 619/698 [00:12<00:01, 55.03it/s] 90%|████████▉ | 625/698 [00:12<00:01, 54.47it/s] 90%|█████████ | 631/698 [00:12<00:01, 55.66it/s] 91%|█████████▏| 638/698 [00:13<00:01, 58.38it/s] 92%|█████████▏| 645/698 [00:13<00:00, 59.88it/s] 93%|█████████▎| 652/698 [00:13<00:00, 61.48it/s] 94%|█████████▍| 659/698 [00:13<00:00, 63.57it/s] 95%|█████████▌| 666/698 [00:13<00:00, 64.51it/s] 96%|█████████▋| 673/698 [00:13<00:00, 65.32it/s] 98%|█████████▊| 681/698 [00:13<00:00, 67.02it/s] 99%|█████████▊| 688/698 [00:13<00:00, 67.33it/s]100%|█████████▉| 696/698 [00:13<00:00, 68.42it/s]100%|██████████| 698/698 [00:13<00:00, 50.00it/s]

@@ -1,0 +1,4 @@
+2022-07-13 16:55:52,450 INFO Shuffle index:0, net_type:resnet_50, augmenter_type:imgaug, trainsetindex:0, frozen shuffle ID:0
+2022-07-13 16:56:29,064 INFO Shuffle index:1, net_type:mobilenet_v2_1.0, augmenter_type:imgaug, trainsetindex:0, frozen shuffle ID:0
+2022-07-13 16:57:04,219 INFO Shuffle index:2, net_type:mobilenet_v2_0.75, augmenter_type:imgaug, trainsetindex:0, frozen shuffle ID:0
+2022-07-13 16:57:48,173 INFO Shuffle index:3, net_type:efficientnet-b6, augmenter_type:imgaug, trainsetindex:0, frozen shuffle ID:0

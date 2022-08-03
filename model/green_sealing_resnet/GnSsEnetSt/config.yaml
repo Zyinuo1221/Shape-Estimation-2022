@@ -1,0 +1,91 @@
+    # Project definitions (do not edit)
+Task: GnSsEnetSt01
+scorer: Steven
+date: Jul8
+multianimalproject: true
+identity: false
+
+    # Project path (change when moving around)
+project_path: /scratch/xp2027/lab_38_GnSsRnetSt/GnSsEnetSt
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  /Users/sophiaxu/Downloads/GnSsEnetSt01-Steven-2022-07-08/videos/green01-train-2022-05-05-19.12.20.mp4:
+    crop: 0, 640, 0, 480
+individuals:
+- individual1
+
+uniquebodyparts: []
+multianimalbodyparts:
+- point1
+- point2
+- point3
+- point4
+- point5
+- point6
+- point7
+- point8
+- point9
+- point10
+- point11
+- point12
+bodyparts: MULTI!
+
+    # Fraction of video to start/stop when extracting frames for labeling/refinement
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton:
+- - point1
+  - point2
+- - point2
+  - point3
+- - point3
+  - point4
+- - point4
+  - point5
+- - point5
+  - point6
+- - point6
+  - point7
+- - point7
+  - point8
+- - point8
+  - point9
+- - point9
+  - point10
+- - point10
+  - point11
+- - point11
+  - point12
+skeleton_color: black
+pcutoff: 0.8
+dotsize: 3
+alphavalue: 0.7
+colormap: rainbow
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: dlcrnet_ms5
+default_augmenter: multi-animal-imgaug
+default_track_method: ellipse
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 0
+x2: 640
+y1: 277
+y2: 624
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true

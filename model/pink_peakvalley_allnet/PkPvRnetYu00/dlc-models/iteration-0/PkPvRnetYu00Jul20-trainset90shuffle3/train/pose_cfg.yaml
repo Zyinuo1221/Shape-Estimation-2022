@@ -1,0 +1,239 @@
+all_joints:
+- - 0
+- - 1
+- - 2
+- - 3
+- - 4
+- - 5
+- - 6
+- - 7
+- - 8
+- - 9
+- - 10
+- - 11
+- - 12
+- - 13
+- - 14
+- - 15
+- - 16
+- - 17
+- - 18
+- - 19
+- - 20
+all_joints_names:
+- bodypart1
+- bodypart2
+- bodypart3
+- bodypart4
+- bodypart5
+- bodypart6
+- bodypart7
+- bodypart8
+- bodypart9
+- bodypart10
+- bodypart11
+- bodypart12
+- bodypart13
+- bodypart14
+- bodypart15
+- bodypart16
+- bodypart17
+- bodypart18
+- bodypart19
+- bodypart20
+- bodypart21
+alpha_r: 0.02
+apply_prob: 0.5
+batch_size: 8
+clahe: true
+claheratio: 0.1
+crop_sampling: hybrid
+crop_size:
+- 400
+- 400
+cropratio: 0.4
+dataset: training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle
+dataset_type: multi-animal-imgaug
+decay_steps: 30000
+display_iters: 500
+edge: false
+emboss:
+  alpha:
+  - 0.0
+  - 1.0
+  embossratio: 0.1
+  strength:
+  - 0.5
+  - 1.5
+global_scale: 0.8
+histeq: true
+histeqratio: 0.1
+init_weights: /home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt
+intermediate_supervision: false
+intermediate_supervision_layer: 12
+location_refinement: true
+locref_huber_loss: true
+locref_loss_weight: 0.05
+locref_stdev: 7.2801
+lr_init: 0.0005
+max_input_size: 1500
+max_shift: 0.4
+metadataset: training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/Documentation_data-PkPvRnetYu00_90shuffle3.pickle
+min_input_size: 64
+mirror: false
+multi_stage: false
+multi_step:
+- - 0.0001
+  - 7500
+- - 5.0e-05
+  - 12000
+- - 1.0e-05
+  - 200000
+net_type: efficientnet-b6
+num_idchannel: 0
+num_joints: 21
+num_limbs: 63
+optimizer: adam
+pafwidth: 20
+pairwise_huber_loss: false
+pairwise_loss_weight: 0.1
+pairwise_predict: false
+partaffinityfield_graph:
+- - 0
+  - 13
+- - 0
+  - 8
+- - 0
+  - 16
+- - 0
+  - 9
+- - 0
+  - 7
+- - 0
+  - 17
+- - 0
+  - 20
+- - 0
+  - 2
+- - 2
+  - 13
+- - 5
+  - 13
+- - 6
+  - 13
+- - 9
+  - 13
+- - 8
+  - 10
+- - 6
+  - 8
+- - 8
+  - 20
+- - 4
+  - 8
+- - 8
+  - 18
+- - 7
+  - 16
+- - 1
+  - 7
+- - 5
+  - 7
+- - 7
+  - 12
+- - 9
+  - 16
+- - 16
+  - 18
+- - 12
+  - 16
+- - 1
+  - 16
+- - 11
+  - 16
+- - 2
+  - 16
+- - 16
+  - 19
+- - 3
+  - 16
+- - 10
+  - 16
+- - 9
+  - 10
+- - 9
+  - 18
+- - 9
+  - 19
+- - 6
+  - 9
+- - 2
+  - 11
+- - 2
+  - 6
+- - 2
+  - 12
+- - 6
+  - 20
+- - 3
+  - 6
+- - 6
+  - 15
+- - 17
+  - 20
+- - 3
+  - 20
+- - 14
+  - 20
+- - 10
+  - 20
+- - 11
+  - 20
+- - 18
+  - 20
+- - 1
+  - 4
+- - 1
+  - 10
+- - 4
+  - 15
+- - 3
+  - 4
+- - 4
+  - 5
+- - 17
+  - 18
+- - 10
+  - 17
+- - 17
+  - 19
+- - 11
+  - 17
+- - 5
+  - 18
+- - 11
+  - 18
+- - 3
+  - 11
+- - 5
+  - 12
+- - 5
+  - 11
+- - 11
+  - 15
+- - 11
+  - 19
+- - 12
+  - 19
+partaffinityfield_predict: true
+pos_dist_thresh: 17
+pre_resize: []
+project_path: /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00
+rotation: 25
+rotratio: 0.4
+save_iters: 10000
+scale_jitter_lo: 0.5
+scale_jitter_up: 1.25
+sharpen: false
+sharpenratio: 0.3
+weigh_only_present_joints: false

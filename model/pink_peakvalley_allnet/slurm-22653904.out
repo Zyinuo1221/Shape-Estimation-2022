@@ -1,0 +1,1247 @@
+/home/xp2027/.local/lib/python3.9/site-packages/statsmodels/compat/pandas.py:65: FutureWarning: pandas.Int64Index is deprecated and will be removed from pandas in a future version. Use pandas.Index with the appropriate dtype instead.
+  from pandas import Int64Index as NumericIndex
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11',
+                      'bodypart12',
+                      'bodypart13',
+                      'bodypart14',
+                      'bodypart15',
+                      'bodypart16',
+                      'bodypart17',
+                      'bodypart18',
+                      'bodypart19',
+                      'bodypart20',
+                      'bodypart21'],
+ 'alpha_r': 0.02,
+ 'apply_prob': 0.5,
+ 'batch_size': 8,
+ 'clahe': True,
+ 'claheratio': 0.1,
+ 'crop_pad': 0,
+ 'crop_sampling': 'hybrid',
+ 'crop_size': [400, 400],
+ 'cropratio': 0.4,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'decay_steps': 30000,
+ 'deterministic': False,
+ 'display_iters': 500,
+ 'edge': False,
+ 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]},
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'histeq': True,
+ 'histeqratio': 0.1,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 0.05,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'lr_init': 0.0005,
+ 'max_input_size': 1500,
+ 'max_shift': 0.4,
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/Documentation_data-PkPvRnetYu00_90shuffle3.pickle',
+ 'min_input_size': 64,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]],
+ 'net_type': 'efficientnet-b6',
+ 'num_idchannel': 0,
+ 'num_joints': 21,
+ 'num_limbs': 63,
+ 'optimizer': 'adam',
+ 'pafwidth': 20,
+ 'pairwise_huber_loss': False,
+ 'pairwise_loss_weight': 0.1,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 13],
+                             [0, 8],
+                             [0, 16],
+                             [0, 9],
+                             [0, 7],
+                             [0, 17],
+                             [0, 20],
+                             [0, 2],
+                             [2, 13],
+                             [5, 13],
+                             [6, 13],
+                             [9, 13],
+                             [8, 10],
+                             [6, 8],
+                             [8, 20],
+                             [4, 8],
+                             [8, 18],
+                             [7, 16],
+                             [1, 7],
+                             [5, 7],
+                             [7, 12],
+                             [9, 16],
+                             [16, 18],
+                             [12, 16],
+                             [1, 16],
+                             [11, 16],
+                             [2, 16],
+                             [16, 19],
+                             [3, 16],
+                             [10, 16],
+                             [9, 10],
+                             [9, 18],
+                             [9, 19],
+                             [6, 9],
+                             [2, 11],
+                             [2, 6],
+                             [2, 12],
+                             [6, 20],
+                             [3, 6],
+                             [6, 15],
+                             [17, 20],
+                             [3, 20],
+                             [14, 20],
+                             [10, 20],
+                             [11, 20],
+                             [18, 20],
+                             [1, 4],
+                             [1, 10],
+                             [4, 15],
+                             [3, 4],
+                             [4, 5],
+                             [17, 18],
+                             [10, 17],
+                             [17, 19],
+                             [11, 17],
+                             [5, 18],
+                             [11, 18],
+                             [3, 11],
+                             [5, 12],
+                             [5, 11],
+                             [11, 15],
+                             [11, 19],
+                             [12, 19]],
+ 'partaffinityfield_predict': True,
+ 'pos_dist_thresh': 17,
+ 'pre_resize': [],
+ 'project_path': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00',
+ 'regularize': False,
+ 'rotation': 25,
+ 'rotratio': 0.4,
+ 'save_iters': 10000,
+ 'scale_jitter_lo': 0.5,
+ 'scale_jitter_up': 1.25,
+ 'scoremap_dir': 'test',
+ 'sharpen': False,
+ 'sharpenratio': 0.3,
+ 'shuffle': True,
+ 'snapshot_prefix': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3/train/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+2022-07-22 13:43:46.410860: I tensorflow/core/platform/cpu_feature_guard.cc:151] This TensorFlow binary is optimized with oneAPI Deep Neural Network Library (oneDNN) to use the following CPU instructions in performance-critical operations:  AVX2 AVX512F FMA
+To enable them in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2022-07-22 13:43:47.387088: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 44182 MB memory:  -> device: 0, name: Quadro RTX 8000, pci bus id: 0000:2f:00.0, compute capability: 7.5
+2022-07-22 13:43:48.633662: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 44182 MB memory:  -> device: 0, name: Quadro RTX 8000, pci bus id: 0000:2f:00.0, compute capability: 7.5
+2022-07-22 13:44:20.046523: I tensorflow/stream_executor/cuda/cuda_dnn.cc:368] Loaded cuDNN version 8101
+iteration: 100 loss: 0.0365 scmap loss: 0.0268 locref loss: 0.0016 limb loss: 0.0081 lr: 0.0004999865777790546
+iteration: 200 loss: 0.0036 scmap loss: 0.0034 locref loss: 0.0001 limb loss: 0.0002 lr: 0.0004999462980777025
+iteration: 300 loss: 0.0028 scmap loss: 0.0026 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004998791264370084
+iteration: 400 loss: 0.0027 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004997851210646331
+iteration: 500 loss: 0.0025 scmap loss: 0.0023 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004996642819605768
+iteration: 600 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004995165509171784
+iteration: 700 loss: 0.0026 scmap loss: 0.0025 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004993421025574207
+iteration: 800 loss: 0.0025 scmap loss: 0.0024 locref loss: 0.0000 limb loss: 0.0001 lr: 0.000499140762258321
+iteration: 900 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004989127046428621
+iteration: 1000 loss: 0.0023 scmap loss: 0.0022 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004986578715033829
+iteration: 1100 loss: 0.0022 scmap loss: 0.0021 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004983763210475445
+iteration: 1200 loss: 0.0021 scmap loss: 0.0020 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004980681696906686
+iteration: 1300 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004977332428097725
+iteration: 1400 loss: 0.0021 scmap loss: 0.0019 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004973717732354999
+iteration: 1500 loss: 0.0019 scmap loss: 0.0018 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004969836445525289
+iteration: 1600 loss: 0.0018 scmap loss: 0.0017 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004965690313838422
+iteration: 1700 loss: 0.0017 scmap loss: 0.0016 locref loss: 0.0000 limb loss: 0.0001 lr: 0.00049612793372944
+iteration: 1800 loss: 0.0016 scmap loss: 0.0015 locref loss: 0.0000 limb loss: 0.0001 lr: 0.000495660409796983
+iteration: 1900 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004951664595864713
+iteration: 2000 loss: 0.0015 scmap loss: 0.0014 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004946461995132267
+iteration: 2100 loss: 0.0014 scmap loss: 0.0013 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004940996295772493
+iteration: 2200 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004935268661938608
+iteration: 2300 loss: 0.0013 scmap loss: 0.0012 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004929279093630612
+iteration: 2400 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004923028755001724
+iteration: 2500 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004916518810205162
+iteration: 2600 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004909748095087707
+iteration: 2700 loss: 0.0011 scmap loss: 0.0010 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004902720102109015
+iteration: 2800 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004895433085039258
+iteration: 2900 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004887888790108263
+iteration: 3000 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.00048800883814692497
+iteration: 3100 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004872033023275435
+iteration: 3200 loss: 0.0010 scmap loss: 0.0009 locref loss: 0.0000 limb loss: 0.0001 lr: 0.000486372213345021
+iteration: 3300 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004855158331338316
+iteration: 3400 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004846341034863144
+iteration: 3500 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.00048372719902545214
+iteration: 3600 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.00048279526527039707
+iteration: 3700 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00048183833132497966
+iteration: 3800 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004808564845006913
+iteration: 3900 loss: 0.0008 scmap loss: 0.0007 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004798498994205147
+iteration: 4000 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0001 lr: 0.00047881866339594126
+iteration: 4100 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004777628928422928
+iteration: 4200 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004766826459672302
+iteration: 4300 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00047557815560139716
+iteration: 4400 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00047444942174479365
+iteration: 4500 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00047329661902040243
+iteration: 4600 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004721198929473758
+iteration: 4700 loss: 0.0007 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00047091938904486597
+iteration: 4800 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004696951655205339
+iteration: 4900 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00046844742610119283
+iteration: 5000 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004671762580983341
+iteration: 5100 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0001 lr: 0.0004658818361349404
+iteration: 5200 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004645642766263336
+iteration: 5300 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000463223725091666
+iteration: 5400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004618603561539203
+iteration: 5500 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004604743153322488
+iteration: 5600 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00045906571904197335
+iteration: 5700 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004576347710099071
+iteration: 5800 loss: 0.0006 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00045618158765137196
+iteration: 5900 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004547063435893506
+iteration: 6000 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004532091843429953
+iteration: 6100 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00045169031363911927
+iteration: 6200 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004501498769968748
+iteration: 6300 loss: 0.0006 scmap loss: 0.0006 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004485879617277533
+iteration: 6400 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004470049461815506
+iteration: 6500 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004454008012544364
+iteration: 6600 loss: 0.0005 scmap loss: 0.0005 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004437757597770542
+iteration: 6700 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004421300545800477
+iteration: 6800 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00044046377297490835
+iteration: 6900 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004387772351037711
+iteration: 7000 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004370704700704664
+iteration: 7100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00043534382712095976
+iteration: 7200 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00043359730625525117
+iteration: 7300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00043183128582313657
+iteration: 7400 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00043004582403227687
+iteration: 7500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004282411828171462
+iteration: 7600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00042641753680072725
+iteration: 7700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004245751188136637
+iteration: 7800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00042271404527127743
+iteration: 7900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00042083460721187294
+iteration: 8000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00041893700836226344
+iteration: 8100 loss: 0.0005 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004170214233454317
+iteration: 8200 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004150880849920213
+iteration: 8300 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004131371679250151
+iteration: 8400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00041116890497505665
+iteration: 8500 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00040918352897278965
+iteration: 8600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004071812145411968
+iteration: 8700 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004051622236147523
+iteration: 8800 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00040312675992026925
+iteration: 8900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0004010750853922218
+iteration: 9000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00039900740375742316
+iteration: 9100 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00039692388963885605
+iteration: 9200 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00039482483407482505
+iteration: 9300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00039271044079214334
+iteration: 9400 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00039058091351762414
+iteration: 9500 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00038843657239340246
+iteration: 9600 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003862775338348001
+iteration: 9700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00038410420529544353
+iteration: 9800 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00038191667408682406
+iteration: 9900 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003797151439357549
+iteration: 10000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00037750002229586244
+iteration: 10100 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003752714255824685
+iteration: 10200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003730296448338777
+iteration: 10300 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00037077494198456407
+iteration: 10400 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003685075498651713
+iteration: 10500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003662276722025126
+iteration: 10600 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000363935629138723
+iteration: 10700 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003616316244006157
+iteration: 10800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003593159490264952
+iteration: 10900 loss: 0.0004 scmap loss: 0.0004 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003569888067431748
+iteration: 11000 loss: 0.0004 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000354650488588959
+iteration: 11100 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003523012564983219
+iteration: 11200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003499413433019072
+iteration: 11300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00034757101093418896
+iteration: 11400 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00034519052132964134
+iteration: 11500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003428001655265689
+iteration: 11600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003404001472517848
+iteration: 11700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00033799081575125456
+iteration: 11800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003355723456479609
+iteration: 11900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003331450279802084
+iteration: 12000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00033070918289013207
+iteration: 12100 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00032826498500071466
+iteration: 12200 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003258128126617521
+iteration: 12300 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00032335284049622715
+iteration: 12400 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003208853886462748
+iteration: 12500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003184106608387083
+iteration: 12600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003159290354233235
+iteration: 12700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003134407161269337
+iteration: 12800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00031094596488401294
+iteration: 12900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00030844510183669627
+iteration: 13000 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00030593835981562734
+iteration: 13100 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00030342605896294117
+iteration: 13200 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0003009084321092814
+iteration: 13300 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002983857411891222
+iteration: 13400 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00029585836455225945
+iteration: 13500 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00029332644771784544
+iteration: 13600 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00029079033993184566
+iteration: 13700 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00028825030312873423
+iteration: 13800 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00028570665745064616
+iteration: 13900 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00028315960662439466
+iteration: 14000 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00028060947079211473
+iteration: 14100 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00027805654099211097
+iteration: 14200 loss: 0.0003 scmap loss: 0.0003 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000275501050055027
+iteration: 14300 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00027294334722682834
+iteration: 14400 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00027038369444198906
+iteration: 14500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002678222954273224
+iteration: 14600 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00026525952853262424
+iteration: 14700 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002626956265885383
+iteration: 14800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002601308806333691
+iteration: 14900 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002575655817054212
+iteration: 15000 loss: 0.0003 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002550000208429992
+iteration: 15100 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002524344017729163
+iteration: 15200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00024986910284496844
+iteration: 15300 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002473043859936297
+iteration: 15400 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00024474048404954374
+iteration: 15500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00024217768805101514
+iteration: 15600 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00023961633269209415
+iteration: 15700 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00023705665080342442
+iteration: 15800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00023449896252714097
+iteration: 15900 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00023194347159005702
+iteration: 16000 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00022939054179005325
+iteration: 16100 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00022684040595777333
+iteration: 16200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00022429335513152182
+iteration: 16300 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00022174970945343375
+iteration: 16400 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00021920967265032232
+iteration: 16500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00021667356486432254
+iteration: 16600 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00021414166258182377
+iteration: 16700 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00021161424228921533
+iteration: 16800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002090915950248018
+iteration: 16900 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0002065739536192268
+iteration: 17000 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00020406165276654065
+iteration: 17100 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00020155493984930217
+iteration: 17200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00019905403314623982
+iteration: 17300 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00019655931100714952
+iteration: 17400 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001940709917107597
+iteration: 17500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00019158933719154447
+iteration: 17600 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001891146384878084
+iteration: 17700 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001866472011897713
+iteration: 17800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00018418724357616156
+iteration: 17900 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00018173499847762287
+iteration: 18000 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00017929084424395114
+iteration: 18100 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00017685497005004436
+iteration: 18200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00017442766693420708
+iteration: 18300 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00017200921138282865
+iteration: 18400 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00016959985077846795
+iteration: 18500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001671998470555991
+iteration: 18600 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00016480949125252664
+iteration: 18700 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00016242901619989425
+iteration: 18800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00016005871293600649
+iteration: 18900 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00015769877063576132
+iteration: 19000 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000155349523993209
+iteration: 19100 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00015301122039090842
+iteration: 19200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.000150684078107588
+iteration: 19300 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00014836841728538275
+iteration: 19400 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00014606441254727542
+iteration: 19500 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00014377232582774013
+iteration: 19600 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00014149249182082713
+iteration: 19700 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00013922508514951915
+iteration: 19800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00013697033864445984
+iteration: 19900 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001347286015516147
+iteration: 20000 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00013250000483822078
+iteration: 20100 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00013028483954258263
+iteration: 20200 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00012808339670300484
+iteration: 20300 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001258958363905549
+iteration: 20400 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00012372240598779172
+iteration: 20500 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00012156344018876553
+iteration: 20600 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00011941904813284054
+iteration: 20700 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00011728954268619418
+iteration: 20800 loss: 0.0002 scmap loss: 0.0002 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00011517517850734293
+iteration: 20900 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00011307609383948147
+iteration: 21000 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00011099257972091436
+iteration: 21100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00010892489808611572
+iteration: 21200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.0001068731871782802
+iteration: 21300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00010483778169145808
+iteration: 21400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00010281879076501355
+iteration: 21500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 0.00010081647633342072
+iteration: 21600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 9.883112943498418e-05
+iteration: 21700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 9.686285920906812e-05
+iteration: 21800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 9.491192031418905e-05
+iteration: 21900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 9.297859651269391e-05
+iteration: 22000 loss: 0.0002 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 9.106298966798931e-05
+iteration: 22100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 8.916534716263413e-05
+iteration: 22200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 8.728595275897533e-05
+iteration: 22300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 8.542490104446188e-05
+iteration: 22400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 8.358245395356789e-05
+iteration: 22500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 8.175884431693703e-05
+iteration: 22600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.995417399797589e-05
+iteration: 22700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.816872675903141e-05
+iteration: 22800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.640269177500159e-05
+iteration: 22900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.465620001312345e-05
+iteration: 23000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.292948430404067e-05
+iteration: 23100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 7.12227847543545e-05
+iteration: 23200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.953619595151395e-05
+iteration: 23300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.78699798299931e-05
+iteration: 23400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.622424552915618e-05
+iteration: 23500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.459922587964684e-05
+iteration: 23600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.299511733232066e-05
+iteration: 23700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 6.141201447462663e-05
+iteration: 23800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.98501501372084e-05
+iteration: 23900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.830972077092156e-05
+iteration: 24000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.679082460119389e-05
+iteration: 24100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.5293665354838595e-05
+iteration: 24200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.381844312069006e-05
+iteration: 24300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.236525248619728e-05
+iteration: 24400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 5.09342789882794e-05
+iteration: 24500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.952571907779202e-05
+iteration: 24600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.8139649152290076e-05
+iteration: 24700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.677626566262916e-05
+iteration: 24800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.543575778370723e-05
+iteration: 24900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.4118190999142826e-05
+iteration: 25000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.282375448383391e-05
+iteration: 25100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.1552604670869187e-05
+iteration: 25200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 4.030483978567645e-05
+iteration: 25300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.9080663555068895e-05
+iteration: 25400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.7880123272771016e-05
+iteration: 25500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.670338628580794e-05
+iteration: 25600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.5550619941204786e-05
+iteration: 25700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.4421896998537704e-05
+iteration: 25800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.331735933898017e-05
+iteration: 25900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.223715248168446e-05
+iteration: 26000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.118135646218434e-05
+iteration: 26100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 3.0150098609738052e-05
+iteration: 26200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.9143531719455495e-05
+iteration: 26300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.816170672303997e-05
+iteration: 26400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.7204747311770916e-05
+iteration: 26500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.62727899098536e-05
+iteration: 26600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.536590545787476e-05
+iteration: 26700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.4484195819240995e-05
+iteration: 26800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.3627781047252938e-05
+iteration: 26900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.2796730263507925e-05
+iteration: 27000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.1991134417476133e-05
+iteration: 27100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.1211122657405213e-05
+iteration: 27200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 2.0456709535210393e-05
+iteration: 27300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.972805694094859e-05
+iteration: 27400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.90251630556304e-05
+iteration: 27500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.8348162484471686e-05
+iteration: 27600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.769712434906978e-05
+iteration: 27700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.707209594314918e-05
+iteration: 27800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.647316457820125e-05
+iteration: 27900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.5900397556833923e-05
+iteration: 28000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.5353833077824675e-05
+iteration: 28100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.483355117670726e-05
+iteration: 28200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.4339630070026033e-05
+iteration: 28300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.3872066119802184e-05
+iteration: 28400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.343096391792642e-05
+iteration: 28500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.3016350749239791e-05
+iteration: 28600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.262827299797209e-05
+iteration: 28700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.2266772500879597e-05
+iteration: 28800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.1931892913707998e-05
+iteration: 28900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.162366424978245e-05
+iteration: 29000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.1342131074343342e-05
+iteration: 29100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.1087321581726428e-05
+iteration: 29200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0859248504857533e-05
+iteration: 29300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0657959137461148e-05
+iteration: 29400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0483451660547871e-05
+iteration: 29500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.033575608744286e-05
+iteration: 29600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0214899702987168e-05
+iteration: 29700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0120899787580129e-05
+iteration: 29800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0053725418401882e-05
+iteration: 29900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0013435712608043e-05
+iteration: 30000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 30900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 31900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 32900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 33900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 34900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 35900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 36900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 37900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 38900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39100 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39200 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39300 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39400 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39500 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39600 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39700 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39800 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 39900 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+iteration: 40000 loss: 0.0001 scmap loss: 0.0001 locref loss: 0.0000 limb loss: 0.0000 lr: 1.0000000656873453e-05
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/ext3/miniconda3/lib/python3.9/threading.py", line 973, in _bootstrap_inner
+    self.run()
+  File "/ext3/miniconda3/lib/python3.9/threading.py", line 910, in run
+    self._target(*self._args, **self._kwargs)
+  File "/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/core/train.py", line 83, in load_and_enqueue
+    sess.run(enqueue_op, feed_dict=food)
+  File "/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 967, in run
+    result = self._run(None, fetches, feed_dict, options_ptr,
+  File "/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/client/session.py", line 1115, in _run
+    raise RuntimeError('Attempted to use a closed Session.')
+RuntimeError: Attempted to use a closed Session.
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11',
+                      'bodypart12',
+                      'bodypart13',
+                      'bodypart14',
+                      'bodypart15',
+                      'bodypart16',
+                      'bodypart17',
+                      'bodypart18',
+                      'bodypart19',
+                      'bodypart20',
+                      'bodypart21'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'efficientnet-b6',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 21,
+ 'num_limbs': 63,
+ 'optimizer': 'sgd',
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 13],
+                             [0, 8],
+                             [0, 16],
+                             [0, 9],
+                             [0, 7],
+                             [0, 17],
+                             [0, 20],
+                             [0, 2],
+                             [2, 13],
+                             [5, 13],
+                             [6, 13],
+                             [9, 13],
+                             [8, 10],
+                             [6, 8],
+                             [8, 20],
+                             [4, 8],
+                             [8, 18],
+                             [7, 16],
+                             [1, 7],
+                             [5, 7],
+                             [7, 12],
+                             [9, 16],
+                             [16, 18],
+                             [12, 16],
+                             [1, 16],
+                             [11, 16],
+                             [2, 16],
+                             [16, 19],
+                             [3, 16],
+                             [10, 16],
+                             [9, 10],
+                             [9, 18],
+                             [9, 19],
+                             [6, 9],
+                             [2, 11],
+                             [2, 6],
+                             [2, 12],
+                             [6, 20],
+                             [3, 6],
+                             [6, 15],
+                             [17, 20],
+                             [3, 20],
+                             [14, 20],
+                             [10, 20],
+                             [11, 20],
+                             [18, 20],
+                             [1, 4],
+                             [1, 10],
+                             [4, 15],
+                             [3, 4],
+                             [4, 5],
+                             [17, 18],
+                             [10, 17],
+                             [17, 19],
+                             [11, 17],
+                             [5, 18],
+                             [11, 18],
+                             [3, 11],
+                             [5, 12],
+                             [5, 11],
+                             [11, 15],
+                             [11, 19],
+                             [12, 19]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+2022-07-22 19:22:22.468741: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 44182 MB memory:  -> device: 0, name: Quadro RTX 8000, pci bus id: 0000:2f:00.0, compute capability: 7.5
+Loading DLC 2.2.1.1...
+DLC loaded in light mode; you cannot use any GUI (labeling, relabeling and standalone GUI)
+Selecting multi-animal trainer
+Activating limb prediction...
+Batch Size is 8
+Getting specs multi-animal-imgaug 63 21
+Loading ImageNet-pretrained efficientnet-b6
+Switching to cosine decay schedule with adam!
+Max_iters overwritten as 40000
+Display_iters overwritten as 100
+Save_iters overwritten as 2000
+Training parameters:
+{'stride': 8.0, 'weigh_part_predictions': False, 'weigh_negatives': False, 'fg_fraction': 0.25, 'mean_pixel': [123.68, 116.779, 103.939], 'shuffle': True, 'snapshot_prefix': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3/train/snapshot', 'log_dir': 'log', 'global_scale': 0.8, 'location_refinement': True, 'locref_stdev': 7.2801, 'locref_loss_weight': 0.05, 'locref_huber_loss': True, 'optimizer': 'adam', 'intermediate_supervision': False, 'intermediate_supervision_layer': 12, 'regularize': False, 'weight_decay': 0.0001, 'crop_pad': 0, 'scoremap_dir': 'test', 'batch_size': 8, 'dataset_type': 'multi-animal-imgaug', 'deterministic': False, 'mirror': False, 'pairwise_huber_loss': False, 'weigh_only_present_joints': False, 'partaffinityfield_predict': True, 'pairwise_predict': True, 'all_joints': [[0], [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15], [16], [17], [18], [19], [20]], 'all_joints_names': ['bodypart1', 'bodypart2', 'bodypart3', 'bodypart4', 'bodypart5', 'bodypart6', 'bodypart7', 'bodypart8', 'bodypart9', 'bodypart10', 'bodypart11', 'bodypart12', 'bodypart13', 'bodypart14', 'bodypart15', 'bodypart16', 'bodypart17', 'bodypart18', 'bodypart19', 'bodypart20', 'bodypart21'], 'alpha_r': 0.02, 'apply_prob': 0.5, 'clahe': True, 'claheratio': 0.1, 'crop_sampling': 'hybrid', 'crop_size': [400, 400], 'cropratio': 0.4, 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle', 'decay_steps': 30000, 'display_iters': 500, 'edge': False, 'emboss': {'alpha': [0.0, 1.0], 'embossratio': 0.1, 'strength': [0.5, 1.5]}, 'histeq': True, 'histeqratio': 0.1, 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt', 'lr_init': 0.0005, 'max_input_size': 1500, 'max_shift': 0.4, 'metadataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/Documentation_data-PkPvRnetYu00_90shuffle3.pickle', 'min_input_size': 64, 'multi_stage': False, 'multi_step': [[0.0001, 7500], [5e-05, 12000], [1e-05, 200000]], 'net_type': 'efficientnet-b6', 'num_idchannel': 0, 'num_joints': 21, 'num_limbs': 63, 'pafwidth': 20, 'pairwise_loss_weight': 0.1, 'partaffinityfield_graph': [[0, 13], [0, 8], [0, 16], [0, 9], [0, 7], [0, 17], [0, 20], [0, 2], [2, 13], [5, 13], [6, 13], [9, 13], [8, 10], [6, 8], [8, 20], [4, 8], [8, 18], [7, 16], [1, 7], [5, 7], [7, 12], [9, 16], [16, 18], [12, 16], [1, 16], [11, 16], [2, 16], [16, 19], [3, 16], [10, 16], [9, 10], [9, 18], [9, 19], [6, 9], [2, 11], [2, 6], [2, 12], [6, 20], [3, 6], [6, 15], [17, 20], [3, 20], [14, 20], [10, 20], [11, 20], [18, 20], [1, 4], [1, 10], [4, 15], [3, 4], [4, 5], [17, 18], [10, 17], [17, 19], [11, 17], [5, 18], [11, 18], [3, 11], [5, 12], [5, 11], [11, 15], [11, 19], [12, 19]], 'pos_dist_thresh': 17, 'pre_resize': [], 'project_path': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00', 'rotation': 25, 'rotratio': 0.4, 'save_iters': 10000, 'scale_jitter_lo': 0.5, 'scale_jitter_up': 1.25, 'sharpen': False, 'sharpenratio': 0.3, 'use_batch_norm': False, 'use_drop_out': False}
+Starting multi-animal training....
+The network is now trained and ready to evaluate. Use the function 'evaluate_network' to evaluate the network.
+Running  DLC_effnet_b6_PkPvRnetYu00Jul20shuffle3_40000  with # of trainingiterations: 40000
+Activating extracting of PAFs
+Network Evaluation underway...
+0it [00:00, ?it/s]1it [00:03,  3.46s/it]2it [00:04,  2.01s/it]3it [00:05,  1.57s/it]4it [00:06,  1.35s/it]5it [00:07,  1.22s/it]6it [00:08,  1.13s/it]7it [00:09,  1.09s/it]8it [00:10,  1.06s/it]9it [00:11,  1.04s/it]10it [00:12,  1.03s/it]11it [00:13,  1.01it/s]12it [00:14,  1.02it/s]13it [00:15,  1.01it/s]14it [00:16,  1.02it/s]15it [00:17,  1.00it/s]16it [00:18,  1.00s/it]17it [00:19,  1.01it/s]18it [00:20,  1.00it/s]19it [00:21,  1.02it/s]20it [00:22,  1.04it/s]21it [00:23,  1.03it/s]22it [00:24,  1.01it/s]23it [00:25,  1.01s/it]24it [00:26,  1.02s/it]25it [00:27,  1.03s/it]25it [00:27,  1.09s/it]
+/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/lib/crossvalutils.py:83: RuntimeWarning: invalid value encountered in true_divide
+  hist_left = hist_left / hist_left.sum()
+Results for 40000 training iterations, training fraction of 90, and shuffle 3:
+Train error: 6.31 pixels. Test error: 7.74 pixels.
+With pcutoff of 0.8:
+Train error: 6.31 pixels. Test error: 7.74 pixels.
+##########################################
+Average Euclidean distance to GT per individual (in pixels; test-only)
+individuals
+individual1    7.744239
+Average Euclidean distance to GT per bodypart (in pixels; test-only)
+bodyparts
+bodypart1     12.119107
+bodypart10     6.939495
+bodypart11     9.174610
+bodypart12     4.676424
+bodypart13     8.258644
+bodypart14     8.715687
+bodypart15     6.872748
+bodypart16     7.394524
+bodypart17     8.687225
+bodypart18     7.862815
+bodypart19     8.202325
+bodypart2      6.511372
+bodypart20     6.267703
+bodypart21     5.715271
+bodypart3     10.484441
+bodypart4      6.419964
+bodypart5      6.091585
+bodypart6      6.204582
+bodypart7      8.179150
+bodypart8     11.148568
+bodypart9      6.702785
+Done and results stored for snapshot:  snapshot-40000
+Graph 1|1
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 315.51it/s]
+  0%|          | 0/22 [00:00<?, ?it/s]100%|██████████| 22/22 [00:00<00:00, 8391.66it/s]
+  0%|          | 0/3 [00:00<?, ?it/s]100%|██████████| 3/3 [00:00<00:00, 7096.96it/s]
+  0%|          | 0/25 [00:00<?, ?it/s]100%|██████████| 25/25 [00:00<00:00, 57709.19it/s]
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11',
+                      'bodypart12',
+                      'bodypart13',
+                      'bodypart14',
+                      'bodypart15',
+                      'bodypart16',
+                      'bodypart17',
+                      'bodypart18',
+                      'bodypart19',
+                      'bodypart20',
+                      'bodypart21'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'efficientnet-b6',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 21,
+ 'num_limbs': 63,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 13],
+                             [0, 8],
+                             [0, 16],
+                             [0, 9],
+                             [0, 7],
+                             [0, 17],
+                             [0, 20],
+                             [0, 2],
+                             [2, 13],
+                             [5, 13],
+                             [6, 13],
+                             [9, 13],
+                             [8, 10],
+                             [6, 8],
+                             [8, 20],
+                             [4, 8],
+                             [8, 18],
+                             [7, 16],
+                             [1, 7],
+                             [5, 7],
+                             [7, 12],
+                             [9, 16],
+                             [16, 18],
+                             [12, 16],
+                             [1, 16],
+                             [11, 16],
+                             [2, 16],
+                             [16, 19],
+                             [3, 16],
+                             [10, 16],
+                             [9, 10],
+                             [9, 18],
+                             [9, 19],
+                             [6, 9],
+                             [2, 11],
+                             [2, 6],
+                             [2, 12],
+                             [6, 20],
+                             [3, 6],
+                             [6, 15],
+                             [17, 20],
+                             [3, 20],
+                             [14, 20],
+                             [10, 20],
+                             [11, 20],
+                             [18, 20],
+                             [1, 4],
+                             [1, 10],
+                             [4, 15],
+                             [3, 4],
+                             [4, 5],
+                             [17, 18],
+                             [10, 17],
+                             [17, 19],
+                             [11, 17],
+                             [5, 18],
+                             [11, 18],
+                             [3, 11],
+                             [5, 12],
+                             [5, 11],
+                             [11, 15],
+                             [11, 19],
+                             [12, 19]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+/home/xp2027/.local/lib/python3.9/site-packages/tensorflow/python/keras/engine/base_layer_v1.py:1694: UserWarning: `layer.apply` is deprecated and will be removed in a future version. Please use `layer.__call__` method instead.
+  warnings.warn('`layer.apply` is deprecated and '
+2022-07-22 19:23:07.850379: I tensorflow/core/common_runtime/gpu/gpu_device.cc:1525] Created device /job:localhost/replica:0/task:0/device:GPU:0 with 44182 MB memory:  -> device: 0, name: Quadro RTX 8000, pci bus id: 0000:2f:00.0, compute capability: 7.5
+Using snapshot-40000 for model /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3
+Activating extracting of PAFs
+Starting to analyze %  /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4
+Loading  /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4
+Duration of video [s]:  23.27 , recorded with  30.0 fps!
+Overall # of frames:  698  found with (before cropping) frame dimensions:  1080 1920
+Starting to extract posture from the video(s) with batchsize: 8
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<03:30,  3.31it/s]  1%|          | 8/698 [00:05<08:31,  1.35it/s]  2%|▏         | 15/698 [00:05<03:46,  3.01it/s]  3%|▎         | 18/698 [00:07<04:40,  2.42it/s]  3%|▎         | 24/698 [00:09<04:14,  2.64it/s]  4%|▍         | 31/698 [00:09<02:32,  4.39it/s]  5%|▌         | 35/698 [00:11<03:15,  3.40it/s]  6%|▌         | 40/698 [00:13<03:34,  3.07it/s]  7%|▋         | 47/698 [00:13<02:14,  4.83it/s]  7%|▋         | 51/698 [00:15<02:57,  3.65it/s]  8%|▊         | 56/698 [00:17<03:19,  3.22it/s]  9%|▉         | 63/698 [00:18<02:07,  5.00it/s] 10%|▉         | 67/698 [00:19<02:48,  3.73it/s] 10%|█         | 72/698 [00:21<03:11,  3.27it/s] 11%|█         | 78/698 [00:22<02:09,  4.79it/s] 12%|█▏        | 81/698 [00:24<03:01,  3.40it/s] 13%|█▎        | 88/698 [00:26<02:57,  3.43it/s] 14%|█▎        | 95/698 [00:26<01:56,  5.19it/s] 14%|█▍        | 98/698 [00:28<02:44,  3.64it/s] 15%|█▍        | 104/698 [00:30<02:55,  3.39it/s] 16%|█▌        | 111/698 [00:30<01:53,  5.16it/s] 16%|█▋        | 114/698 [00:32<02:41,  3.61it/s] 17%|█▋        | 120/698 [00:34<02:51,  3.38it/s] 18%|█▊        | 126/698 [00:34<01:57,  4.88it/s] 18%|█▊        | 129/698 [00:36<02:44,  3.45it/s] 19%|█▉        | 135/698 [00:36<01:49,  5.16it/s] 20%|█▉        | 139/698 [00:38<02:30,  3.72it/s] 21%|██        | 144/698 [00:40<02:51,  3.24it/s] 21%|██▏       | 150/698 [00:40<01:53,  4.81it/s] 22%|██▏       | 153/698 [00:42<02:41,  3.38it/s] 23%|██▎       | 160/698 [00:44<02:37,  3.41it/s] 24%|██▍       | 167/698 [00:44<01:42,  5.19it/s] 24%|██▍       | 170/698 [00:46<02:25,  3.63it/s] 25%|██▌       | 176/698 [00:48<02:34,  3.38it/s] 26%|██▌       | 182/698 [00:48<01:45,  4.89it/s] 27%|██▋       | 185/698 [00:50<02:28,  3.46it/s] 27%|██▋       | 191/698 [00:50<01:38,  5.17it/s] 28%|██▊       | 195/698 [00:52<02:15,  3.72it/s] 29%|██▊       | 200/698 [00:54<02:33,  3.24it/s] 30%|██▉       | 206/698 [00:54<01:42,  4.82it/s] 30%|██▉       | 209/698 [00:56<02:24,  3.38it/s] 31%|███       | 215/698 [00:56<01:34,  5.13it/s] 31%|███▏      | 219/698 [00:58<02:10,  3.68it/s] 32%|███▏      | 224/698 [01:00<02:27,  3.22it/s] 33%|███▎      | 230/698 [01:00<01:37,  4.80it/s] 33%|███▎      | 233/698 [01:02<02:18,  3.37it/s] 34%|███▍      | 240/698 [01:04<02:14,  3.41it/s] 35%|███▌      | 246/698 [01:04<01:31,  4.94it/s] 36%|███▌      | 249/698 [01:06<02:09,  3.47it/s] 37%|███▋      | 256/698 [01:08<02:07,  3.48it/s] 38%|███▊      | 263/698 [01:08<01:23,  5.24it/s] 38%|███▊      | 266/698 [01:10<01:58,  3.65it/s] 39%|███▉      | 272/698 [01:12<02:05,  3.40it/s] 40%|███▉      | 279/698 [01:13<01:21,  5.16it/s] 40%|████      | 282/698 [01:14<01:54,  3.62it/s] 41%|████▏     | 288/698 [01:16<02:01,  3.38it/s] 42%|████▏     | 295/698 [01:17<01:18,  5.15it/s] 43%|████▎     | 299/698 [01:19<01:44,  3.81it/s] 44%|████▎     | 304/698 [01:21<01:58,  3.32it/s] 45%|████▍     | 311/698 [01:21<01:15,  5.10it/s] 45%|████▌     | 315/698 [01:23<01:41,  3.78it/s] 46%|████▌     | 320/698 [01:25<01:54,  3.31it/s] 47%|████▋     | 327/698 [01:25<01:13,  5.08it/s] 47%|████▋     | 331/698 [01:27<01:37,  3.76it/s] 48%|████▊     | 336/698 [01:29<01:49,  3.29it/s] 49%|████▉     | 343/698 [01:29<01:10,  5.06it/s] 50%|████▉     | 347/698 [01:31<01:33,  3.76it/s] 50%|█████     | 352/698 [01:33<01:45,  3.29it/s] 51%|█████▏    | 359/698 [01:33<01:06,  5.06it/s] 52%|█████▏    | 363/698 [01:35<01:28,  3.77it/s] 53%|█████▎    | 368/698 [01:37<01:40,  3.29it/s] 54%|█████▎    | 375/698 [01:37<01:03,  5.06it/s] 54%|█████▍    | 379/698 [01:39<01:24,  3.76it/s] 55%|█████▌    | 384/698 [01:41<01:35,  3.29it/s] 56%|█████▌    | 391/698 [01:41<01:00,  5.06it/s] 57%|█████▋    | 395/698 [01:43<01:20,  3.75it/s] 57%|█████▋    | 400/698 [01:45<01:30,  3.29it/s] 58%|█████▊    | 407/698 [01:45<00:57,  5.05it/s] 59%|█████▊    | 410/698 [01:47<01:21,  3.55it/s] 60%|█████▉    | 416/698 [01:49<01:24,  3.34it/s] 60%|██████    | 422/698 [01:49<00:56,  4.85it/s] 61%|██████    | 425/698 [01:51<01:19,  3.43it/s] 62%|██████▏   | 432/698 [01:53<01:17,  3.44it/s] 63%|██████▎   | 438/698 [01:53<00:52,  4.94it/s] 63%|██████▎   | 441/698 [01:55<01:13,  3.49it/s] 64%|██████▍   | 447/698 [01:55<00:48,  5.19it/s] 65%|██████▍   | 451/698 [01:57<01:06,  3.73it/s] 65%|██████▌   | 456/698 [01:59<01:14,  3.24it/s] 66%|██████▌   | 462/698 [01:59<00:49,  4.81it/s] 67%|██████▋   | 465/698 [02:01<01:08,  3.38it/s] 67%|██████▋   | 471/698 [02:01<00:44,  5.12it/s] 68%|██████▊   | 475/698 [02:03<01:00,  3.68it/s] 69%|██████▉   | 480/698 [02:05<01:07,  3.22it/s] 70%|██████▉   | 486/698 [02:05<00:44,  4.81it/s] 70%|███████   | 489/698 [02:07<01:02,  3.37it/s] 71%|███████   | 495/698 [02:07<00:39,  5.12it/s] 71%|███████▏  | 499/698 [02:09<00:54,  3.68it/s] 72%|███████▏  | 504/698 [02:11<01:00,  3.21it/s] 73%|███████▎  | 511/698 [02:12<00:36,  5.06it/s] 74%|███████▍  | 515/698 [02:14<00:49,  3.72it/s] 74%|███████▍  | 520/698 [02:16<00:54,  3.26it/s] 76%|███████▌  | 527/698 [02:16<00:33,  5.05it/s] 76%|███████▌  | 531/698 [02:18<00:44,  3.75it/s] 77%|███████▋  | 536/698 [02:20<00:49,  3.28it/s] 78%|███████▊  | 543/698 [02:20<00:30,  5.06it/s] 78%|███████▊  | 547/698 [02:22<00:40,  3.76it/s] 79%|███████▉  | 552/698 [02:24<00:44,  3.28it/s] 80%|████████  | 559/698 [02:24<00:27,  5.05it/s] 81%|████████  | 562/698 [02:26<00:38,  3.55it/s] 81%|████████▏ | 568/698 [02:28<00:38,  3.34it/s] 82%|████████▏ | 575/698 [02:28<00:24,  5.11it/s] 83%|████████▎ | 579/698 [02:30<00:31,  3.79it/s] 84%|████████▎ | 584/698 [02:32<00:34,  3.31it/s] 85%|████████▍ | 591/698 [02:32<00:21,  5.09it/s] 85%|████████▌ | 595/698 [02:34<00:27,  3.78it/s] 86%|████████▌ | 600/698 [02:36<00:29,  3.29it/s] 87%|████████▋ | 607/698 [02:36<00:17,  5.07it/s] 88%|████████▊ | 611/698 [02:38<00:23,  3.77it/s] 88%|████████▊ | 616/698 [02:40<00:24,  3.29it/s] 89%|████████▉ | 623/698 [02:40<00:14,  5.07it/s] 90%|████████▉ | 627/698 [02:42<00:18,  3.77it/s] 91%|█████████ | 632/698 [02:44<00:20,  3.30it/s] 92%|█████████▏| 639/698 [02:44<00:11,  5.09it/s] 92%|█████████▏| 643/698 [02:46<00:14,  3.78it/s] 93%|█████████▎| 648/698 [02:48<00:15,  3.30it/s] 94%|█████████▍| 656/698 [02:50<00:11,  3.55it/s] 95%|█████████▌| 664/698 [02:52<00:09,  3.70it/s] 96%|█████████▋| 672/698 [02:54<00:06,  3.79it/s] 97%|█████████▋| 680/698 [02:56<00:04,  3.86it/s] 99%|█████████▊| 688/698 [02:58<00:02,  3.90it/s]100%|█████████▉| 696/698 [03:00<00:00,  3.93it/s]100%|██████████| 698/698 [03:02<00:00,  3.83it/s]
+Config:
+{'all_joints': [[0],
+                [1],
+                [2],
+                [3],
+                [4],
+                [5],
+                [6],
+                [7],
+                [8],
+                [9],
+                [10],
+                [11],
+                [12],
+                [13],
+                [14],
+                [15],
+                [16],
+                [17],
+                [18],
+                [19],
+                [20]],
+ 'all_joints_names': ['bodypart1',
+                      'bodypart2',
+                      'bodypart3',
+                      'bodypart4',
+                      'bodypart5',
+                      'bodypart6',
+                      'bodypart7',
+                      'bodypart8',
+                      'bodypart9',
+                      'bodypart10',
+                      'bodypart11',
+                      'bodypart12',
+                      'bodypart13',
+                      'bodypart14',
+                      'bodypart15',
+                      'bodypart16',
+                      'bodypart17',
+                      'bodypart18',
+                      'bodypart19',
+                      'bodypart20',
+                      'bodypart21'],
+ 'batch_size': 1,
+ 'crop_pad': 0,
+ 'dataset': 'training-datasets/iteration-0/UnaugmentedDataSet_PkPvRnetYu00Jul20/PkPvRnetYu00_Yuna90shuffle3.pickle',
+ 'dataset_type': 'multi-animal-imgaug',
+ 'deterministic': False,
+ 'fg_fraction': 0.25,
+ 'global_scale': 0.8,
+ 'init_weights': '/home/xp2027/.local/lib/python3.9/site-packages/deeplabcut/pose_estimation_tensorflow/models/pretrained/efficientnet-b6/model.ckpt',
+ 'intermediate_supervision': False,
+ 'intermediate_supervision_layer': 12,
+ 'location_refinement': True,
+ 'locref_huber_loss': True,
+ 'locref_loss_weight': 1.0,
+ 'locref_smooth': False,
+ 'locref_stdev': 7.2801,
+ 'log_dir': 'log',
+ 'mean_pixel': [123.68, 116.779, 103.939],
+ 'minconfidence': 0.01,
+ 'mirror': False,
+ 'multi_stage': False,
+ 'net_type': 'efficientnet-b6',
+ 'nmsradius': 5.0,
+ 'num_idchannel': 0,
+ 'num_joints': 21,
+ 'num_limbs': 63,
+ 'optimizer': 'sgd',
+ 'paf_best': [0,
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13,
+              14,
+              15,
+              16,
+              17,
+              18,
+              19,
+              20,
+              21,
+              22,
+              23,
+              24,
+              25,
+              26,
+              27,
+              28,
+              29,
+              30,
+              31,
+              32,
+              33,
+              34,
+              35,
+              36,
+              37,
+              38,
+              39,
+              40,
+              41,
+              42,
+              43,
+              44,
+              45,
+              46,
+              47,
+              48,
+              49,
+              50,
+              51,
+              52,
+              53,
+              54,
+              55,
+              56,
+              57,
+              58,
+              59,
+              60,
+              61,
+              62],
+ 'pairwise_huber_loss': True,
+ 'pairwise_predict': False,
+ 'partaffinityfield_graph': [[0, 13],
+                             [0, 8],
+                             [0, 16],
+                             [0, 9],
+                             [0, 7],
+                             [0, 17],
+                             [0, 20],
+                             [0, 2],
+                             [2, 13],
+                             [5, 13],
+                             [6, 13],
+                             [9, 13],
+                             [8, 10],
+                             [6, 8],
+                             [8, 20],
+                             [4, 8],
+                             [8, 18],
+                             [7, 16],
+                             [1, 7],
+                             [5, 7],
+                             [7, 12],
+                             [9, 16],
+                             [16, 18],
+                             [12, 16],
+                             [1, 16],
+                             [11, 16],
+                             [2, 16],
+                             [16, 19],
+                             [3, 16],
+                             [10, 16],
+                             [9, 10],
+                             [9, 18],
+                             [9, 19],
+                             [6, 9],
+                             [2, 11],
+                             [2, 6],
+                             [2, 12],
+                             [6, 20],
+                             [3, 6],
+                             [6, 15],
+                             [17, 20],
+                             [3, 20],
+                             [14, 20],
+                             [10, 20],
+                             [11, 20],
+                             [18, 20],
+                             [1, 4],
+                             [1, 10],
+                             [4, 15],
+                             [3, 4],
+                             [4, 5],
+                             [17, 18],
+                             [10, 17],
+                             [17, 19],
+                             [11, 17],
+                             [5, 18],
+                             [11, 18],
+                             [3, 11],
+                             [5, 12],
+                             [5, 11],
+                             [11, 15],
+                             [11, 19],
+                             [12, 19]],
+ 'partaffinityfield_predict': True,
+ 'regularize': False,
+ 'scoremap_dir': 'test',
+ 'shuffle': True,
+ 'sigma': 1,
+ 'snapshot_prefix': '/scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3/test/snapshot',
+ 'stride': 8.0,
+ 'weigh_negatives': False,
+ 'weigh_only_present_joints': False,
+ 'weigh_part_predictions': False,
+ 'weight_decay': 0.0001}
+Video Analyzed. Saving results in /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/iteration-0/shuffle-3...
+Using snapshot-40000 for model /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/dlc-models/iteration-0/PkPvRnetYu00Jul20-trainset90shuffle3
+Processing...  /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4
+Analyzing /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/iteration-0/shuffle-3/pink02-train-2022-02-21-20.05.09DLC_effnet_b6_PkPvRnetYu00Jul20shuffle3_40000.h5
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<01:20,  8.67it/s] 41%|████▏     | 289/698 [00:00<00:00, 1521.02it/s] 76%|███████▌  | 529/698 [00:00<00:00, 1878.46it/s]100%|██████████| 698/698 [00:00<00:00, 1946.36it/s]
+0it [00:00, ?it/s]698it [00:00, 612217.52it/s]
+The tracklets were created (i.e., under the hood deeplabcut.convert_detections2tracklets was run). Now you can 'refine_tracklets' in the GUI, or run 'deeplabcut.stitch_tracklets'.
+Processing...  /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4
+  0%|          | 0/1 [00:00<?, ?it/s]100%|██████████| 1/1 [00:00<00:00, 36472.21it/s]
+The videos are analyzed. Time to assemble animals and track 'em... 
+ Call 'create_video_with_all_detections' to check multi-animal detection quality before tracking.
+If the tracking is not satisfactory for some videos, consider expanding the training set. You can use the function 'extract_outlier_frames' to extract a few representative outlier frames.
+Loading  /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4 and data.
+Plots created! Please check the directory "plot-poses" within the video directory
+Starting to process video: /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4
+Loading /scratch/xp2027/lab_36_PkPvRnetYu/PkPvRnetYu00/videos/pink02-train-2022-02-21-20.05.09.mp4 and data.
+Duration of video [s]: 23.27, recorded with 30.0 fps!
+Overall # of frames: 698 with cropped frame dimensions: 1080 1920
+Generating frames and creating video.
+  0%|          | 0/698 [00:00<?, ?it/s]  0%|          | 1/698 [00:00<04:03,  2.86it/s]  1%|          | 5/698 [00:00<00:51, 13.59it/s]  2%|▏         | 11/698 [00:00<00:27, 25.28it/s]  2%|▏         | 16/698 [00:00<00:21, 31.93it/s]  3%|▎         | 22/698 [00:00<00:17, 38.37it/s]  4%|▍         | 28/698 [00:00<00:15, 42.34it/s]  5%|▍         | 34/698 [00:01<00:14, 45.04it/s]  6%|▌         | 39/698 [00:01<00:14, 46.30it/s]  6%|▋         | 44/698 [00:01<00:13, 46.74it/s]  7%|▋         | 49/698 [00:01<00:13, 47.13it/s]  8%|▊         | 55/698 [00:01<00:13, 48.43it/s]  9%|▊         | 61/698 [00:01<00:13, 48.44it/s] 10%|▉         | 67/698 [00:01<00:12, 49.50it/s] 10%|█         | 72/698 [00:01<00:12, 49.41it/s] 11%|█         | 77/698 [00:01<00:12, 48.46it/s] 12%|█▏        | 82/698 [00:02<00:12, 48.47it/s] 12%|█▏        | 87/698 [00:02<00:12, 48.47it/s] 13%|█▎        | 92/698 [00:02<00:12, 48.25it/s] 14%|█▍        | 97/698 [00:02<00:12, 47.24it/s] 15%|█▍        | 102/698 [00:02<00:12, 47.07it/s] 15%|█▌        | 107/698 [00:02<00:12, 47.40it/s] 16%|█▌        | 112/698 [00:02<00:12, 46.00it/s] 17%|█▋        | 117/698 [00:02<00:12, 46.21it/s] 17%|█▋        | 122/698 [00:02<00:12, 46.48it/s] 18%|█▊        | 127/698 [00:02<00:12, 45.26it/s] 19%|█▉        | 132/698 [00:03<00:12, 44.51it/s] 20%|█▉        | 137/698 [00:03<00:12, 44.49it/s] 20%|██        | 142/698 [00:03<00:12, 44.48it/s] 21%|██        | 147/698 [00:03<00:12, 43.72it/s] 22%|██▏       | 152/698 [00:03<00:12, 44.31it/s] 22%|██▏       | 157/698 [00:03<00:12, 43.76it/s] 23%|██▎       | 162/698 [00:03<00:12, 43.31it/s] 24%|██▍       | 167/698 [00:03<00:12, 44.03it/s] 25%|██▍       | 172/698 [00:04<00:12, 43.81it/s] 25%|██▌       | 177/698 [00:04<00:11, 44.06it/s] 26%|██▌       | 182/698 [00:04<00:11, 44.06it/s] 27%|██▋       | 187/698 [00:04<00:11, 43.92it/s] 28%|██▊       | 192/698 [00:04<00:11, 44.24it/s] 28%|██▊       | 197/698 [00:04<00:11, 44.34it/s] 29%|██▉       | 202/698 [00:04<00:11, 44.19it/s] 30%|██▉       | 207/698 [00:04<00:11, 44.30it/s] 30%|███       | 212/698 [00:04<00:10, 45.34it/s] 31%|███       | 217/698 [00:05<00:10, 45.78it/s] 32%|███▏      | 222/698 [00:05<00:10, 45.23it/s] 33%|███▎      | 227/698 [00:05<00:10, 45.44it/s] 33%|███▎      | 232/698 [00:05<00:10, 44.60it/s] 34%|███▍      | 237/698 [00:05<00:10, 45.03it/s] 35%|███▍      | 242/698 [00:05<00:10, 44.60it/s] 35%|███▌      | 247/698 [00:05<00:09, 45.11it/s] 36%|███▌      | 252/698 [00:05<00:09, 45.92it/s] 37%|███▋      | 257/698 [00:05<00:09, 46.71it/s] 38%|███▊      | 262/698 [00:05<00:09, 47.32it/s] 38%|███▊      | 267/698 [00:06<00:09, 47.40it/s] 39%|███▉      | 272/698 [00:06<00:09, 46.59it/s] 40%|███▉      | 277/698 [00:06<00:09, 45.63it/s] 40%|████      | 282/698 [00:06<00:09, 45.34it/s] 41%|████      | 287/698 [00:06<00:09, 45.63it/s] 42%|████▏     | 292/698 [00:06<00:08, 45.96it/s] 43%|████▎     | 297/698 [00:06<00:08, 46.57it/s] 43%|████▎     | 302/698 [00:06<00:08, 46.35it/s] 44%|████▍     | 307/698 [00:06<00:08, 47.14it/s] 45%|████▍     | 313/698 [00:07<00:08, 47.76it/s] 46%|████▌     | 319/698 [00:07<00:07, 48.34it/s] 46%|████▋     | 324/698 [00:07<00:07, 47.87it/s] 47%|████▋     | 329/698 [00:07<00:07, 48.29it/s] 48%|████▊     | 334/698 [00:07<00:07, 47.34it/s] 49%|████▊     | 339/698 [00:07<00:07, 47.94it/s] 49%|████▉     | 345/698 [00:07<00:07, 49.60it/s] 50%|█████     | 350/698 [00:07<00:07, 49.48it/s] 51%|█████     | 356/698 [00:07<00:06, 49.94it/s] 52%|█████▏    | 361/698 [00:08<00:07, 43.78it/s] 52%|█████▏    | 366/698 [00:08<00:07, 45.19it/s] 53%|█████▎    | 372/698 [00:08<00:06, 46.86it/s] 54%|█████▍    | 377/698 [00:08<00:06, 47.12it/s] 55%|█████▍    | 382/698 [00:08<00:06, 47.19it/s] 55%|█████▌    | 387/698 [00:08<00:06, 47.42it/s] 56%|█████▌    | 392/698 [00:08<00:06, 48.13it/s] 57%|█████▋    | 397/698 [00:08<00:06, 48.42it/s] 58%|█████▊    | 402/698 [00:08<00:06, 48.81it/s] 58%|█████▊    | 407/698 [00:09<00:05, 49.08it/s] 59%|█████▉    | 412/698 [00:09<00:05, 48.94it/s] 60%|█████▉    | 418/698 [00:09<00:05, 49.41it/s] 61%|██████    | 423/698 [00:09<00:05, 48.43it/s] 61%|██████▏   | 428/698 [00:09<00:05, 48.21it/s] 62%|██████▏   | 433/698 [00:09<00:05, 47.87it/s] 63%|██████▎   | 438/698 [00:09<00:05, 48.44it/s] 63%|██████▎   | 443/698 [00:09<00:05, 47.50it/s] 64%|██████▍   | 448/698 [00:09<00:05, 47.91it/s] 65%|██████▍   | 453/698 [00:10<00:05, 47.79it/s] 66%|██████▌   | 458/698 [00:10<00:05, 47.14it/s] 66%|██████▋   | 463/698 [00:10<00:05, 46.23it/s] 67%|██████▋   | 468/698 [00:10<00:04, 46.33it/s] 68%|██████▊   | 473/698 [00:10<00:04, 45.26it/s] 68%|██████▊   | 478/698 [00:10<00:04, 45.71it/s] 69%|██████▉   | 483/698 [00:10<00:04, 45.67it/s] 70%|██████▉   | 488/698 [00:10<00:04, 45.75it/s] 71%|███████   | 493/698 [00:10<00:04, 42.28it/s] 71%|███████▏  | 498/698 [00:11<00:04, 43.58it/s] 72%|███████▏  | 503/698 [00:11<00:04, 43.46it/s] 73%|███████▎  | 508/698 [00:11<00:04, 44.39it/s] 73%|███████▎  | 513/698 [00:11<00:04, 44.74it/s] 74%|███████▍  | 518/698 [00:11<00:03, 45.60it/s] 75%|███████▍  | 523/698 [00:11<00:03, 46.29it/s] 76%|███████▌  | 528/698 [00:11<00:03, 46.64it/s] 76%|███████▋  | 533/698 [00:11<00:03, 46.53it/s] 77%|███████▋  | 538/698 [00:11<00:03, 46.82it/s] 78%|███████▊  | 543/698 [00:11<00:03, 47.10it/s] 79%|███████▊  | 548/698 [00:12<00:03, 47.88it/s] 79%|███████▉  | 553/698 [00:12<00:03, 47.08it/s] 80%|███████▉  | 558/698 [00:12<00:02, 47.37it/s] 81%|████████  | 563/698 [00:12<00:02, 47.42it/s] 81%|████████▏ | 568/698 [00:12<00:02, 47.40it/s] 82%|████████▏ | 573/698 [00:12<00:02, 48.10it/s] 83%|████████▎ | 578/698 [00:12<00:02, 48.59it/s] 84%|████████▎ | 584/698 [00:12<00:02, 49.94it/s] 84%|████████▍ | 589/698 [00:12<00:02, 49.73it/s] 85%|████████▌ | 594/698 [00:13<00:02, 49.30it/s] 86%|████████▌ | 599/698 [00:13<00:02, 49.32it/s] 87%|████████▋ | 604/698 [00:13<00:01, 48.80it/s] 87%|████████▋ | 609/698 [00:13<00:01, 48.95it/s] 88%|████████▊ | 614/698 [00:13<00:01, 48.56it/s] 89%|████████▉ | 620/698 [00:13<00:01, 49.92it/s] 90%|████████▉ | 626/698 [00:13<00:01, 50.51it/s] 91%|█████████ | 632/698 [00:13<00:01, 51.83it/s] 91%|█████████▏| 638/698 [00:13<00:01, 51.82it/s] 92%|█████████▏| 644/698 [00:14<00:01, 51.63it/s] 93%|█████████▎| 650/698 [00:14<00:00, 52.19it/s] 94%|█████████▍| 657/698 [00:14<00:00, 55.08it/s] 95%|█████████▌| 664/698 [00:14<00:00, 57.35it/s] 96%|█████████▌| 671/698 [00:14<00:00, 58.91it/s] 97%|█████████▋| 678/698 [00:14<00:00, 59.57it/s] 98%|█████████▊| 685/698 [00:14<00:00, 60.28it/s] 99%|█████████▉| 692/698 [00:14<00:00, 61.21it/s]100%|██████████| 698/698 [00:14<00:00, 46.82it/s]
